@@ -1,0 +1,10 @@
+import {readFileSync} from 'node:fs';
+import {join} from 'node:path';
+const dir=process.argv[2];
+if (!dir) throw new Error('작업 로그 폴더 경로를 지정하세요.');
+const read=name=>JSON.parse(readFileSync(join(dir,name),'utf8'));
+const prices=read('price-log.json').filter(([,v])=>v.saved === true);
+const stock=read('final-audit.json').modified;
+const options=read('option-price-log.json');
+const ids=new Set([...prices.map(([id])=>id),...stock.map(v=>v.id),...options.map(([id])=>id)]);
+console.log(JSON.stringify({basePriceProducts:prices.length,stockProducts:stock.length,optionPriceLogProducts:options.length,uniqueModifiedProducts:ids.size},null,2));
