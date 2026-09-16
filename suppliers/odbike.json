@@ -1,0 +1,8 @@
+{
+  "id": "odbike", "name": "OD BIKE", "url": "https://www.odbike.co.kr/",
+  "brands": {
+    "merida": {"name": "MERIDA Bike", "status": "pending"},
+    "tern": {"name": "TERN Bike", "status": "pending"},
+    "other_acc": {"name": "기타 ACC (브랜드 확인 필요)", "status": "pending"}
+  }
+}

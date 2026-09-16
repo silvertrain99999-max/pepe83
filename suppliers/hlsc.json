@@ -1,0 +1,13 @@
+{
+  "id": "hlsc", "name": "HLSC", "url": "https://www.hlsc.co.kr/front/",
+  "brands": {
+    "topeak": {
+      "name": "TOPEAK", "status": "planner_ready", "runtime": "node",
+      "entry": "operations/src/rules.mjs", "function": "plan",
+      "scope": "confirmed_physical_store_inventory_only",
+      "discount_policy": "historical_agreement_20_percent_smartstore_cafe24_user_owned",
+      "shipping_policy": "historical_store_stock_paid_3000",
+      "requires": ["current_physical_inventory", "sync_review", "exact_model_and_all_options", "current_policy_confirmation"]
+    }
+  }
+}

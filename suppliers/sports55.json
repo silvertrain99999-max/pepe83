@@ -1,0 +1,17 @@
+{
+  "id": "sports55", "name": "SPORTS55", "url": "https://www.sports55.co.kr/",
+  "brands": {
+    "park_tool": {
+      "name": "Park Tool", "status": "planner_ready", "runtime": "python",
+      "entry": "sportson55/rules.py", "function": "build_plan",
+      "matching_function": "model_candidates", "scope": "confirmed_exact_model_and_package",
+      "discount_policy": "preserve_existing", "supplier_in_stock_quantity": 20
+    },
+    "finish_line": {
+      "name": "Finish Line", "status": "planner_ready", "runtime": "python",
+      "entry": "sportson55/finish_line.py", "function": "plan",
+      "option_function": "option_plan", "scope": "confirmed_family_formulation_capacity_and_package",
+      "discount_policy": "preserve_existing", "supplier_in_stock_quantity": 20
+    }
+  }
+}

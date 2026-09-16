@@ -1,0 +1,8 @@
+{
+  "id": "trek", "name": "TREK",
+  "url": "https://www.trekbikes.com/kr/ko_KR/",
+  "brands": {
+    "trek_bike": {"name": "TREK Bike", "status": "pending"},
+    "trek_acc": {"name": "TREK ACC", "status": "pending"}
+  }
+}
