@@ -1,3 +1,20 @@
+# 공급사 6개 중심 상품관리
+
+[공급사 → 브랜드 → 코드 구조](suppliers/README.md)를 관리 진입점으로 사용합니다.
+
+| 공급사 | 관리 브랜드·범위 |
+| --- | --- |
+| TREK | TREK Bike / ACC |
+| OD BIKE | MERIDA / TERN / 기타 ACC |
+| GL&Co | SRAM |
+| NNX SPORTS | SHIMANO |
+| SPORTS55 | Park Tool / Finish Line |
+| HLSC | TOPEAK |
+
+공급사별 설정은 `suppliers/*.json`, 연결 확인은 `suppliers/router.py`입니다. 기존 코드는 아래 경로에 유지합니다. 미구현 공급사는 임의 규칙을 적용하지 않고 보류합니다.
+
+---
+
 # 토픽 상품관리 업무 기준
 
 9월10~11일 사용자 점검을 반영한 최신 기준은 [operations/README.md](operations/README.md)입니다.
