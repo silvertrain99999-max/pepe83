@@ -1,0 +1,11 @@
+{
+  "items": [{
+    "product_id": "DEMO-001", "supplier": "sports55", "brand": "park_tool",
+    "channel": "cafe24", "checked_at": "2026-09-16", "evidence_revision": "demo-v1",
+    "actions": ["sync"], "match_confirmed": true, "all_options_confirmed": true,
+    "current": {"name": "가상 상품", "status": "판매중", "option_ids": ["default"], "discount": "preserve"},
+    "source": {"current": true, "listed": true},
+    "rows": [{"id": "default", "confirmed": true, "supplier_in_stock": false,
+      "store_confirmed": true, "store_quantity": 0, "price_confirmed": true, "base_price": 10000}]
+  }]
+}
