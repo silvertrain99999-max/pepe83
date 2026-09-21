@@ -1,0 +1,128 @@
+{
+  "version": "2026-09-21",
+  "status_values": ["not_started", "in_progress", "blocked", "complete", "excluded"],
+  "scope_values": ["sell_now", "explore", "exclude", "undecided"],
+  "roots": [
+    {
+      "id": "bikes",
+      "name": "자전거",
+      "scope": "undecided",
+      "status": "not_started",
+      "children": [
+        {"id": "bikes.mtb", "name": "MTB", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "bikes.mtb.rail_plus", "name": "레일+", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.mtb.marlin", "name": "마린", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.mtb.marlin_plus", "name": "마린+", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.mtb.supercaliber", "name": "슈퍼칼리버", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.mtb.slash", "name": "슬래시", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.mtb.top_fuel", "name": "탑 퓨얼", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.mtb.fuel", "name": "퓨얼", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.mtb.procaliber", "name": "프로칼리버", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "bikes.road", "name": "로드", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "bikes.road.domane", "name": "도마니", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.road.madone", "name": "마돈", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.road.boon", "name": "분", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.road.speed_concept", "name": "스피드 컨셉", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.road.emonda", "name": "에몬다", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.road.checkmate", "name": "체크메이트", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.road.checkout", "name": "체크아웃", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.road.checkpoint", "name": "체크포인트", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "bikes.city", "name": "시티", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "bikes.city.fx", "name": "FX", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "bikes.electric", "name": "일렉트릭", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "bikes.electric.mtb", "name": "전기 산악", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "bikes.kids", "name": "아동/주니어용", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "bikes.kids.precaliber", "name": "프리칼리버", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "bikes.collections", "name": "컬렉션", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "bikes.collections.gravel", "name": "그래블", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.all", "name": "모든 바이크", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.cyclocross", "name": "싸이클로크로스", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.urban", "name": "어반 & 커뮤터", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.women", "name": "여성용", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.touring", "name": "자전거 패킹 및 투어링", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.cross_country", "name": "크로스 컨트리", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.triathlon", "name": "트라이애슬론", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.trail", "name": "트레일", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.frameset", "name": "프레임셋", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.project_one", "name": "프로젝트 원", "scope": "undecided", "status": "not_started"},
+          {"id": "bikes.collections.fitness", "name": "피트니스", "scope": "undecided", "status": "not_started"}
+        ]}
+      ]
+    },
+    {
+      "id": "gear",
+      "name": "장비",
+      "scope": "sell_now",
+      "status": "in_progress",
+      "children": [
+        {"id": "gear.components", "name": "컴포넌트", "scope": "sell_now", "status": "in_progress", "children": [
+          {"id": "gear.components.derailleurs", "name": "드레일러", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.bottom_brackets", "name": "바텀 브라켓", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.kickstands", "name": "받침 다리", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.shifters", "name": "변속 레버", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.brakes", "name": "브레이크 및 레버", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.stems", "name": "스템", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.seatposts", "name": "시트포스트", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.saddles", "name": "안장", "scope": "sell_now", "status": "complete", "evidence": "management/reports/trek-saddles-2026-09-21"},
+          {"id": "gear.components.chains", "name": "체인", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.chain_guards", "name": "체인가드 & 체인 케이스", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.chain_guides", "name": "체인 가이드", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.cassettes", "name": "카세트 & 프리휠", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.cranks", "name": "크랭크 & 체인링", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.tires", "name": "타이어", "scope": "sell_now", "status": "complete", "evidence": "management/reports/trek-tires-2026-09-21"},
+          {"id": "gear.components.tubeless", "name": "튜브리스 & 액세서리", "scope": "sell_now", "status": "not_started"},
+          {"id": "gear.components.training_wheels", "name": "트레이닝 휠", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.pedals", "name": "페달", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.frame_protection", "name": "프레임 보호", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.handlebars", "name": "핸들바 & 액세서리", "scope": "explore", "status": "in_progress", "evidence": "management/reports/trek-handlebars-2026-09-21"},
+          {"id": "gear.components.grips_tape", "name": "핸들바 그립 및 테이프", "scope": "sell_now", "status": "in_progress", "evidence": "management/reports/trek-handlebars-2026-09-21"},
+          {"id": "gear.components.headsets", "name": "헤드셋", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.components.wheels", "name": "휠", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "gear.service", "name": "정비", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "gear.service.tools", "name": "공구 및 유지보수", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.rims", "name": "림", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.bearings", "name": "베어링", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.skewers", "name": "스큐어", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.spokes", "name": "스포크", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.cables", "name": "케이블 & 하우징", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.forks", "name": "포크", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.frame_parts", "name": "프레임 부품", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.hangers", "name": "행거 & 드롭아웃", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.hubs", "name": "허브 & 허브 부품", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.rear_suspension", "name": "후방 서스펜션", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "gear.accessories", "name": "액세서리", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "gear.accessories.bags", "name": "가방 및 패니어", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.lights", "name": "라이트 및 레이더", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.bottles", "name": "물통 및 케이지", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.baskets", "name": "바스켓", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.racks", "name": "바이크 랙", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.reflective", "name": "반사성 장비", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.bells", "name": "벨 및 경적", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.eyewear", "name": "아이웨어", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.locks", "name": "자물쇠", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.computers", "name": "컴퓨터 및 GPS", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.trailers", "name": "트레일러", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.pumps", "name": "펌프", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.fenders", "name": "펜더", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.helmets", "name": "헬멧", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.mobile", "name": "휴대폰 및 태블릿 액세서리", "scope": "undecided", "status": "not_started"}
+        ]},
+        {"id": "gear.collections", "name": "컬렉션", "scope": "undecided", "status": "not_started", "children": [
+          {"id": "gear.collections.pop", "name": "P.O.P.", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.collections.on_sale", "name": "기어 판매 중", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.collections.new", "name": "새로운 무언가 기어", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.collections.gifts", "name": "선물 및 즐길 거리", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.collections.sale", "name": "세일", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.collections.ebike", "name": "전자 자전거용 기어", "scope": "undecided", "status": "not_started"}
+        ]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "version": "2026-09-21",
+  "rules": {
+    "sku_required": true,
+    "smartstore_discount": "정상 판매가 + 즉시할인",
+    "cafe24_discount": "소비자가 정상가 + 판매가 할인가, 별도 할인 없음",
+    "accessory_stock": "supplier_only",
+    "supplier_50_plus": 50
+  },
+  "products": [
+    {
+      "trek_product_id": "26816",
+      "official_name": "본트래거 XR1 아동용 MTB 타이어",
+      "category": "gear.components.tires",
+      "stock_policy": "supplier_plus_store",
+      "variants": [
+        {"sku": "579119", "option": "16×2.25", "regular_price": 29900, "supplier_stock": 0, "store_stock": 6},
+        {"sku": "579120", "option": "20×2.25", "regular_price": 29900, "supplier_stock": 50, "store_stock": 1},
+        {"sku": "579121", "option": "24×2.25", "regular_price": 29900, "supplier_stock": 50, "store_stock": 2}
+      ],
+      "channels": {
+        "smartstore": {"product_id": "8783558524", "skus": ["579119", "579120", "579121"]},
+        "cafe24": {"product_id": "10238", "skus": ["579119", "579120", "579121"]}
+      }
+    },
+    {
+      "trek_product_id": "48830",
+      "official_name": "트렉 라인 콤프 MTB 그립 세트",
+      "category": "gear.components.grips_tape",
+      "stock_policy": "supplier_only",
+      "variants": [
+        {"sku": "5325946", "option": "블랙", "regular_price": 19900, "supplier_stock": 50},
+        {"sku": "5330252", "option": "올리브 드랩", "regular_price": 19900, "supplier_stock": 50},
+        {"sku": "5330250", "option": "주니퍼/블랙", "regular_price": 19900, "supplier_stock": 50},
+        {"sku": "5330249", "option": "코브라 블러드", "regular_price": 19900, "supplier_stock": 50},
+        {"sku": "5330248", "option": "탄", "regular_price": 19900, "supplier_stock": 36}
+      ],
+      "channels": {
+        "smartstore": {"product_id": "11859593859", "skus": ["5325946", "5330250", "5330249", "5330248"]}
+      }
+    },
+    {
+      "trek_product_id": "23110",
+      "official_name": "본트래거 젤 코르크 핸들바 테이프",
+      "category": "gear.components.grips_tape",
+      "stock_policy": "supplier_only",
+      "variants": [
+        {"sku": "563797", "option": "워털루 블루", "regular_price": 35000, "sale_price": 15900, "supplier_stock": 5},
+        {"sku": "563798", "option": "로열/블랙", "regular_price": 35000, "sale_price": 15900, "supplier_stock": 45},
+        {"sku": "563791", "option": "그린", "regular_price": 35000, "sale_price": 15900, "supplier_stock": 41},
+        {"sku": "563788", "option": "바이스 핑크", "regular_price": 35000, "sale_price": 15900, "supplier_stock": 2},
+        {"sku": "563794", "option": "울트라바이올렛", "regular_price": 35000, "sale_price": 15900, "supplier_stock": 12}
+      ],
+      "channels": {
+        "smartstore": {"product_id": "11007717351", "skus": ["563797", "563798", "563791", "563788", "563794"]}
+      }
+    },
+    {
+      "trek_product_id": "37298",
+      "official_name": "본트래거 퍼프 라인 핸들바 테이프 세트",
+      "category": "gear.components.grips_tape",
+      "stock_policy": "supplier_only",
+      "variants": [
+        {"sku": "5279592", "option": "화이트", "regular_price": 45000, "sale_price": 15900, "supplier_stock": 27}
+      ],
+      "channels": {
+        "smartstore": {"product_id": "13682969094", "skus": ["5279592"]}
+      }
+    }
+  ]
+}
