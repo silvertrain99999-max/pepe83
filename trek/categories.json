@@ -98,7 +98,7 @@
           {"id": "gear.service.rear_suspension", "name": "후방 서스펜션", "scope": "undecided", "status": "not_started"}
         ]},
         {"id": "gear.accessories", "name": "액세서리", "scope": "undecided", "status": "not_started", "children": [
-          {"id": "gear.accessories.bags", "name": "가방 및 패니어", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.accessories.bags", "name": "가방 및 패니어", "scope": "sell_now", "status": "in_progress", "evidence": "management/reports/trek-bags-panniers-2026-09-22"},
           {"id": "gear.accessories.lights", "name": "라이트 및 레이더", "scope": "undecided", "status": "not_started"},
           {"id": "gear.accessories.bottles", "name": "물통 및 케이지", "scope": "undecided", "status": "not_started"},
           {"id": "gear.accessories.baskets", "name": "바스켓", "scope": "undecided", "status": "not_started"},
