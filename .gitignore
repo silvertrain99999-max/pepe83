@@ -4,6 +4,7 @@ reports/
 .env.*
 node_modules/
 *.log
+outputs/
 
 __pycache__/
 *.py[cod]

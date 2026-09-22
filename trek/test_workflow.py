@@ -19,7 +19,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_excluded_category_is_pruned(self):
         changed = set_state(self.tree, "gear.components.tubeless", scope="exclude")
-        self.assertEqual(next_category(changed)["id"], "gear.components.handlebars")
+        self.assertEqual(next_category(changed)["id"], "gear.components.grips_tape")
 
     def test_complete_requires_evidence(self):
         with self.assertRaises(ValueError):

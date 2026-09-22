@@ -32,8 +32,12 @@ TREK 상품은 이름이 아니라 **옵션별 SKU**로 관리합니다. `catalo
 - 본사 `50+`는 원장에 `50`으로 기록합니다.
 - 스마트스토어 할인: 정상 판매가를 유지하고 즉시할인 금액을 입력합니다.
 - 카페24 할인: 소비자가에 정상가, 판매가에 할인가를 입력하고 별도 할인은 끕니다.
+- 재고관리표의 할인가는 본사 할인 정보가 아니라 YB샵의 기존 판매가를 기록합니다.
+- 카페24와 스마트스토어의 기존 할인가가 다를 수 있으므로 채널별 열에 따로 기록합니다.
 - 정상가·할인 정책이 다른 SKU를 한 온라인 상품에 섞으면 검증 오류가 발생합니다.
 - 저장 완료와 재조회 확인 전에는 작업 완료로 기록하지 않습니다.
+- 재고관리표는 TREK 전용입니다. 다른 공급처는 별도 지시 전까지 생성하지 않습니다.
+- 작업 순서는 본사 확인 → 판매 채널 대조 → 상품 수정 → 재조회 검증 → 재고관리표 갱신 → 코드 기록입니다.
 
 ## 실행
 
@@ -42,6 +46,7 @@ python trek/cli.py trek/catalog.json
 python trek/cli.py trek/catalog.json --channel smartstore --output trek/smartstore-plan.json
 python trek/cli.py trek/catalog.json --channel cafe24 --output trek/cafe24-plan.json
 python -m unittest discover -s trek -p "test_*.py" -v
+node trek/inventory_report.mjs
 ```
 
 `catalog.json`에는 오늘 확인한 대표 상품부터 넣었습니다. 앞으로 카테고리별로
