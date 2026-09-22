@@ -85,7 +85,7 @@
           {"id": "gear.components.wheels", "name": "휠", "scope": "exclude", "status": "excluded", "decision_note": "상품성 검토 결과 판매 검토 제외 (2026-09-22)"}
         ]},
         {"id": "gear.service", "name": "정비", "scope": "undecided", "status": "not_started", "children": [
-          {"id": "gear.service.tools", "name": "공구 및 유지보수", "scope": "sell_now", "status": "complete", "evidence": "management/reports/trek-tools-maintenance-2026-09-22"},
+          {"id": "gear.service.tools", "name": "공구 및 유지보수", "scope": "sell_now", "status": "in_progress", "evidence": "management/reports/trek-tools-maintenance-2026-09-22"},
           {"id": "gear.service.rims", "name": "림", "scope": "undecided", "status": "not_started"},
           {"id": "gear.service.bearings", "name": "베어링", "scope": "undecided", "status": "not_started"},
           {"id": "gear.service.skewers", "name": "스큐어", "scope": "undecided", "status": "not_started"},
