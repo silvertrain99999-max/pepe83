@@ -79,13 +79,13 @@
           {"id": "gear.components.training_wheels", "name": "트레이닝 휠", "scope": "undecided", "status": "not_started"},
           {"id": "gear.components.pedals", "name": "페달", "scope": "undecided", "status": "not_started"},
           {"id": "gear.components.frame_protection", "name": "프레임 보호", "scope": "undecided", "status": "not_started"},
-          {"id": "gear.components.handlebars", "name": "핸들바 & 액세서리", "scope": "explore", "status": "in_progress", "evidence": "management/reports/trek-handlebars-2026-09-21"},
+          {"id": "gear.components.handlebars", "name": "핸들바 & 액세서리", "scope": "exclude", "status": "excluded", "evidence": "management/reports/trek-handlebars-2026-09-21", "decision_note": "상품성 검토 결과 판매 검토 제외 (2026-09-22)"},
           {"id": "gear.components.grips_tape", "name": "핸들바 그립 및 테이프", "scope": "sell_now", "status": "in_progress", "evidence": "management/reports/trek-handlebars-2026-09-21"},
           {"id": "gear.components.headsets", "name": "헤드셋", "scope": "undecided", "status": "not_started"},
-          {"id": "gear.components.wheels", "name": "휠", "scope": "undecided", "status": "not_started"}
+          {"id": "gear.components.wheels", "name": "휠", "scope": "exclude", "status": "excluded", "decision_note": "상품성 검토 결과 판매 검토 제외 (2026-09-22)"}
         ]},
         {"id": "gear.service", "name": "정비", "scope": "undecided", "status": "not_started", "children": [
-          {"id": "gear.service.tools", "name": "공구 및 유지보수", "scope": "undecided", "status": "not_started"},
+          {"id": "gear.service.tools", "name": "공구 및 유지보수", "scope": "sell_now", "status": "complete", "evidence": "management/reports/trek-tools-maintenance-2026-09-22"},
           {"id": "gear.service.rims", "name": "림", "scope": "undecided", "status": "not_started"},
           {"id": "gear.service.bearings", "name": "베어링", "scope": "undecided", "status": "not_started"},
           {"id": "gear.service.skewers", "name": "스큐어", "scope": "undecided", "status": "not_started"},
