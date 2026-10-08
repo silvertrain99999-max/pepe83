@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-08",
+  "brand": "SRAM",
+  "supplier": "glnco",
+  "scope": "display_category_reference",
+  "basis": "User-created manufacturer-based category structure; not a compatibility chart",
+  "channels": {
+    "cafe24": {
+      "sync_enabled": false
+    },
+    "smartstore": {
+      "sync_enabled": false
+    }
+  },
+  "shared_category_paths": true,
+  "categories": [
+    {
+      "code": "sram.mtb.transmission_12",
+      "path": [
+        "SRAM",
+        "MTB",
+        "12단 트랜스미션"
+      ]
+    },
+    {
+      "code": "sram.mtb.s_series_12",
+      "path": [
+        "SRAM",
+        "MTB",
+        "12단 S-Series"
+      ]
+    },
+    {
+      "code": "sram.mtb.speed_7_11",
+      "path": [
+        "SRAM",
+        "MTB",
+        "11~7단"
+      ]
+    },
+    {
+      "code": "sram.mtb.chainrings",
+      "path": [
+        "SRAM",
+        "MTB",
+        "체인링"
+      ]
+    },
+    {
+      "code": "sram.mtb.accessories",
+      "path": [
+        "SRAM",
+        "MTB",
+        "악세서리"
+      ]
+    },
+    {
+      "code": "sram.road.etap_axs",
+      "path": [
+        "SRAM",
+        "로드",
+        "eTap AXS"
+      ]
+    },
+    {
+      "code": "sram.road.aero_brakes",
+      "path": [
+        "SRAM",
+        "로드",
+        "에어로 브레이크"
+      ]
+    },
+    {
+      "code": "sram.road.fixed",
+      "path": [
+        "SRAM",
+        "로드",
+        "픽시드(싱글기어)"
+      ]
+    },
+    {
+      "code": "sram.road.speed_11",
+      "path": [
+        "SRAM",
+        "로드",
+        "11단"
+      ]
+    },
+    {
+      "code": "sram.road.apex",
+      "path": [
+        "SRAM",
+        "로드",
+        "APEX"
+      ]
+    },
+    {
+      "code": "sram.road.speed_10",
+      "path": [
+        "SRAM",
+        "로드",
+        "10단"
+      ]
+    },
+    {
+      "code": "sram.road.chainrings",
+      "path": [
+        "SRAM",
+        "로드",
+        "체인링"
+      ]
+    },
+    {
+      "code": "sram.road.bottom_brackets",
+      "path": [
+        "SRAM",
+        "로드",
+        "버텀브라켓(BB)"
+      ]
+    },
+    {
+      "code": "sram.road.accessories",
+      "path": [
+        "SRAM",
+        "로드",
+        "악세서리"
+      ]
+    },
+    {
+      "code": "sram.brakes.hydraulic",
+      "path": [
+        "SRAM",
+        "브레이크",
+        "유압식 브레이크"
+      ]
+    },
+    {
+      "code": "sram.brakes.mechanical",
+      "path": [
+        "SRAM",
+        "브레이크",
+        "기계식 브레이크"
+      ]
+    },
+    {
+      "code": "sram.brakes.rotors",
+      "path": [
+        "SRAM",
+        "브레이크",
+        "로터"
+      ]
+    },
+    {
+      "code": "sram.brakes.pads",
+      "path": [
+        "SRAM",
+        "브레이크",
+        "패드"
+      ]
+    },
+    {
+      "code": "sram.brakes.accessories",
+      "path": [
+        "SRAM",
+        "브레이크",
+        "악세서리"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "legacy_eagle",
+      "rule": "기존 XX1/X01/GX/NX/SX Eagle 12단은 MTB/12단 S-Series에 포함",
+      "basis": "user_override"
+    },
+    {
+      "id": "transmission",
+      "rule": "트랜스미션/T-Type 구동부품과 POD 컨트롤러 본체는 MTB/12단 트랜스미션"
+    },
+    {
+      "id": "dedicated_parts",
+      "rule": "체인링, BB, 보수부품은 해당 전용 분류 우선"
+    },
+    {
+      "id": "axs_sets",
+      "rule": "로드 AXS 변속·브레이크 통합 세트는 로드/eTap AXS"
+    },
+    {
+      "id": "third_party",
+      "rule": "타사 호환품은 SRAM 정품과 구분하고 포함 여부 별도 결정"
+    },
+    {
+      "id": "discontinued",
+      "rule": "단종은 카테고리와 별도 기록. 정확한 모델·세대·옵션 및 공급 재고 확인. 단종만으로 삭제하지 않음"
+    },
+    {
+      "id": "independent_channels",
+      "rule": "양 채널 분류 기준은 같지만 수정·판매상태·재고는 각각 확인"
+    },
+    {
+      "id": "verification",
+      "rule": "한글·영문 표기 모두 검색. 검색 0건은 단종/미등록 확정 근거가 아님. 전수 검증 전 완전 목록으로 단정하지 않음"
+    }
+  ],
+  "product_registry_fields": [
+    "model",
+    "category_code",
+    "cafe24_product_code",
+    "smartstore_product_id",
+    "discontinuation_evidence",
+    "stock_supply_status",
+    "cafe24_status",
+    "smartstore_status"
+  ],
+  "excluded_scope": [
+    "Shimano setup",
+    "automatic store edits",
+    "automatic deletion"
+  ],
+  "notes": [
+    "카페24 MTB 버텀 브라켓 분류는 과거 확인되었으나 공통표 19개에는 없음. 추가 통합 전 양 채널 구조 확인 필요.",
+    "상품별 과거 대화 목록은 전체 상품 전수검증 자료가 아니므로 이 파일에 확정 레지스트리로 포함하지 않음."
+  ]
+}
+
