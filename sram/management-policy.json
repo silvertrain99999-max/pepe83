@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-13",
+  "scope": "SRAM GL&Co / Cafe24 / Smartstore",
+  "execution_mode": "reference_only",
+  "codes": {
+    "SRAM-PM-01": "공급사와 판매상품 모델·세대·옵션 대조",
+    "SRAM-PM-02": "소비자가·판매가·옵션 가격 대조",
+    "SRAM-PM-03": "공급 재고와 매장 재고 분리 반영",
+    "SRAM-PM-04": "채널별 판매·진열·옵션 상태 검증",
+    "SRAM-PM-05": "매장 재고 범위 오늘출발 설정",
+    "SRAM-PM-06": "보류 상품 유지·삭제 판정",
+    "SRAM-PE-01": "양 채널 상품명 통일",
+    "SRAM-PE-02": "검색어·태그·Title·Description 보완",
+    "SRAM-QA-01": "채널별 저장 증빙과 재접속 검증"
+  },
+  "supplier_stock_policy": {
+    "available": 5,
+    "low_stock": 3,
+    "unavailable": 0,
+    "unknown": null,
+    "unknown_action": "hold",
+    "note": "사용자가 지정한 온라인 운영 수량이며 본사 실수량이 아님. 매장 수량과 임의 합산하지 않음."
+  },
+  "channels": {
+    "sync_enabled": false,
+    "cafe24": {
+      "out_of_stock_option_selling": false,
+      "restocked_option_selling": true,
+      "restock_check": "판매가 대체문구 [품절] 잔존 여부 확인"
+    },
+    "smartstore": {
+      "option_usable": "Y",
+      "zero_stock": "automatic_sold_out",
+      "display": "retain",
+      "manual_sale_suspension": false
+    }
+  },
+  "held_disposition": {
+    "scope": "2026-10-13 보류 27상품",
+    "positive_store_stock": "retain_sell_store_quantity",
+    "confirmed_zero_store_stock": "delete_candidate",
+    "unknown_store_stock": "await_stock_confirmation",
+    "deletions_executed": 0,
+    "note": "사용자 결정. 단종 확정을 삭제의 추가 조건으로 요구하지 않는다. 실제 영구삭제 시 실행 도구의 확인 절차 준수."
+  },
+  "matching": {
+    "required": [
+      "model",
+      "generation",
+      "mount_or_interface",
+      "option",
+      "selling_unit",
+      "kit_contents"
+    ],
+    "search_zero_is_unregistered": false,
+    "unlisted_is_discontinued": false,
+    "single_item_stock_is_kit_stock": false
+  },
+  "shipping": {
+    "today_dispatch_capacity": "verified_store_stock",
+    "preserve_existing_cutoff": true,
+    "reference_cutoff": "weekdays 12:00",
+    "reference_cutoff_is_global_mandate": false
+  },
+  "verification": {
+    "states": [
+      "pending",
+      "held",
+      "entered_not_saved",
+      "save_confirmed",
+      "reopened_verified"
+    ],
+    "listing_approval_separate": true,
+    "ranking_improvement_not_guaranteed": true
+  },
+  "privacy": {
+    "publish_actual_store_inventory": false,
+    "publish_account_or_customer_data": false,
+    "keep_product_checkpoints_local": true
+  }
+}
