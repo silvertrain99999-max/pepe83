@@ -1,0 +1,26 @@
+{
+  "version": "2026-10-14",
+  "task_codes": ["PE-02", "PE-01", "PE-03", "PE-04", "PE-05"],
+  "title_order": ["스램 SRAM", "정확한 모델·부품번호", "확인된 규격", "부품명", "확인된 판매단위"],
+  "rules": [
+    "같은 상품의 대표·전용 상품명을 양 채널에서 통일한다.",
+    "다중 옵션 상품명에 특정 색상·사이즈만 넣지 않는다.",
+    "단수·세대·AXS·T-Type·장착방식·구성은 확인된 사실만 사용한다.",
+    "복사 등록 시 이전 상품의 검색어·제목·설명·Alt 잔존 여부를 점검한다.",
+    "검색 결과 없음은 삭제·단종 확정이 아니다.",
+    "신규 상품번호는 기존 보류 상품번호를 완료 처리하는 근거가 아니다."
+  ],
+  "allowed_fields": {
+    "cafe24": ["product_name", "summary_desc", "simple_desc", "product_tag", "meta_title", "meta_author", "meta_description", "meta_keywords", "alttag"],
+    "smartstore": ["상품명", "스마트스토어전용 상품명", "Page Title", "Meta description", "관련성 확인된 태그"]
+  },
+  "protected_fields": ["가격", "할인", "재고", "옵션", "배송", "상세본문", "카테고리", "브랜드", "제조사"],
+  "completion": {
+    "verified": "저장 결과 확인. 재접속 확인과 완료 안내 확인은 기록에서 구별한다.",
+    "unavailable_redirect": "편집 화면 접근 불가 또는 다른 상품으로 이동",
+    "deleted_on_platform": "플랫폼의 명시적인 삭제 안내 확인",
+    "not_found_all_status_search": "전체 상태·기간의 상품번호 검색 결과 없음"
+  },
+  "reporting": "플랫폼+상품번호로 중복 제거하고 상태별 건수를 원장에서 계산한다. PM 보류와 PE 결과, 저장 완료와 실제 노출 성과를 구별한다.",
+  "execution": "운영 기준 데이터이며 온라인 자동 실행기가 아니다."
+}
