@@ -1,7 +1,11 @@
 # 공급사 중심 상품관리
 
 
+
+
 관리 진입점은 공급사 → 브랜드 → 해당 규칙 코드입니다. 공급사 설정파일 6개를 중심으로 브랜드가 나뉘며, `router.py`가 연결을 확인합니다. 구현 코드는 기존 경로에 유지해 기존 사용법을 보존했습니다.
+
+
 
 
 ```text
@@ -17,7 +21,8 @@ suppliers/
 ├─ glnco.json      GL&Co
 │  └─ sram         SRAM (미구현)
 ├─ nnxsports.json  NNX SPORTS
-│  └─ shimano      SHIMANO (미구현)
+│  ├─ shimano      SHIMANO (미구현)
+│  └─ hutchinson   HUTCHINSON 허치슨 (미구현)
 ├─ sports55.json   SPORTS55
 │  ├─ park_tool    → sportson55/rules.py
 │  └─ finish_line  → sportson55/finish_line.py
@@ -26,13 +31,21 @@ suppliers/
 ```
 
 
+
+
 브랜드 항목은 JSON 안의 하위 설정입니다. 새 브랜드는 해당 공급사 파일에 추가하고, 공급사 선택 없이 브랜드만으로 임의 실행하지 않습니다. 미구현·잘못된 연결은 `hold`로 반환합니다. 코드가 있는 브랜드도 `planner_ready`는 오프라인 변경안 생성 가능 상태이며, 실제 사이트 수정 완료를 뜻하지 않습니다.
+
+
 
 
 ## 사용
 
 
+
+
 저장소 루트에서:
+
+
 
 
 ```sh
@@ -43,10 +56,16 @@ python -m unittest discover -s suppliers -p "test_*.py" -v
 ```
 
 
+
+
 출력의 `entry`와 `function`이 해당 브랜드 코드입니다. 라우터는 파일을 실행하거나 쇼핑몰을 수정하지 않습니다.
 
 
+
+
 ## 규칙 분리
+
+
 
 
 - SPORTS55: 본사 재고 있으면20, 본사 품절이면 확인된 매장 수량, 둘 다 없으면0. 기존 할인 유지.
@@ -56,7 +75,20 @@ python -m unittest discover -s suppliers -p "test_*.py" -v
 - 최신 실재고·본사 가격·판매상태·상품/옵션 대응을 확인한 뒤 내장 브라우저로 저장하고 재조회.
 
 
+
+
 공급사 목록과 브랜드 범위는 사용자가 지정한6곳 기준입니다. 영업상 최신 취급 브랜드 전체 목록이라고 단정하지 않습니다.
 
 
 
+
+
+
+
+
+
+## 나눅스 허치슨
+
+- 공급사: NNX SPORTS(나눅스)
+- 브랜드: HUTCHINSON(허치슨)
+- 상품목록: https://www.nnxsports.com/shop/goods/goods_list.php?category=005003002
