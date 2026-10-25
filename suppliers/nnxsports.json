@@ -1,4 +1,16 @@
 {
-  "id": "nnxsports", "name": "NNX SPORTS", "url": "https://www.nnxsports.com/shop/main/index.php",
-  "brands": {"shimano": {"name": "SHIMANO 용품·부품", "status": "pending"}}
+  "id": "nnxsports",
+  "name": "NNX SPORTS",
+  "url": "https://www.nnxsports.com/shop/main/index.php",
+  "brands": {
+    "shimano": {
+      "name": "SHIMANO 용품·부품",
+      "status": "pending"
+    },
+    "hutchinson": {
+      "name": "HUTCHINSON 허치슨",
+      "status": "pending",
+      "url": "https://www.nnxsports.com/shop/goods/goods_list.php?category=005003002"
+    }
+  }
 }
