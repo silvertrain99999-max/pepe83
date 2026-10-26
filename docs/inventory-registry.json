@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "updated": "2026-10-26",
+  "base_directory": "C:/Users/YBBIKE3/.codex/.chatgpt-projects/g-p-6aa29b2f96a08191b694eca82b9a0f88/outputs/bike-stock-20261023",
+  "launcher": "재고표_바로열기.html",
+  "desktop_shortcut": "C:/Users/YBBIKE3/Pictures/Desktop/재고표 바로열기.lnk",
+  "workbooks": [
+    {
+      "code": "BIKE",
+      "file": "매장_재고_바이크_집중노출_관리.xlsx",
+      "purpose": "바이크 통합 재고 및 집중 노출 관리"
+    },
+    {
+      "code": "ACC",
+      "file": "ACC_매장재고관리.xlsx",
+      "categories": {
+        "스포트온": [
+          "파크툴",
+          "피니쉬라인"
+        ],
+        "나눅스": [
+          "토픽"
+        ]
+      }
+    },
+    {
+      "code": "TREK",
+      "file": "TREK_재고관리표.xlsx",
+      "sheets": [
+        "재고관리",
+        "Bike 매장재고"
+      ]
+    },
+    {
+      "code": "MERIDA",
+      "file": "MERIDA_매장재고관리.xlsx",
+      "supplier": "OD바이크",
+      "sheets": [
+        "MERIDA"
+      ]
+    }
+  ],
+  "rules": {
+    "physical_stock_only": true,
+    "zero_means_no_stock": true,
+    "blank_means_unknown": true,
+    "sum_across_workbooks": false,
+    "automatic_channel_sync": false,
+    "automatic_github_xlsx_backup": false
+  },
+  "authoritative_stock": {
+    "TREK": "TREK",
+    "MERIDA": "MERIDA",
+    "accessories_except_trek": "ACC",
+    "other_bikes": "BIKE"
+  }
+}
+
