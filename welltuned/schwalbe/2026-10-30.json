@@ -1,0 +1,433 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Seoul",
+  "supplier": "welltuned",
+  "brand": "schwalbe",
+  "source_url": "https://www.welltuned.co.kr/",
+  "stock_policy": {
+    "재고있음": 5,
+    "재고없음": 0,
+    "store_stock": 0
+  },
+  "cafe24": [
+    {
+      "id": "13788",
+      "name": "슈발베 G-ONE R 프로 TLR 그래블 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "13787",
+      "name": "슈발베 G-ONE RS 프로 TLR 그래블 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "13786",
+      "name": "슈발베 에피션스 프로 TLR 투어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "13785",
+      "name": "슈발베 마라톤 몬디얼 TLR 투어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "13784",
+      "name": "슈발베 매직 메리 프로 TLR MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "12534",
+      "name": "슈발베 래피드랍 와이어 MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "12495",
+      "name": "슈발베 래피드랍 폴딩 MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "12494",
+      "name": "슈발베 레이싱 레이 TLR MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "12493",
+      "name": "슈발베 로켓론 TLR MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "12427",
+      "name": "슈발베 위키드윌 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "12279",
+      "name": "슈발베 점보 짐 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "12191",
+      "name": "슈발베 빅베티 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "11799",
+      "name": "슈발베 빅 애플 클린처 와이어 퍼포먼스 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "11386",
+      "name": "슈발베 G-ONE 울트라바이트 TLE 에볼루션 그래블 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "11043",
+      "name": "슈발베 G-ONE 바이트 TLE 에볼루션 그래블 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "10689",
+      "name": "슈발베 G-ONE 스피드 TLE 에볼루션 그래블 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "10686",
+      "name": "슈발베 프로원 TT 튜브리스 이지 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "10533",
+      "name": "슈발베 루가노 II 엔듀런스 와이어 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "10532",
+      "name": "슈발베 루가노 II 클린처 폴딩 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "9658",
+      "name": "슈발베 프로원 TLE 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "9657",
+      "name": "슈발베 프로원 튜브타입 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "9656",
+      "name": "슈발베 원 TLE 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "9655",
+      "name": "슈발베 원 튜브타입 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "9064",
+      "name": "슈발베 빅 벤 플러스 클린처 와이어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "9063",
+      "name": "슈발베 레이싱 레이 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "7284",
+      "name": "슈발베 매직 메리 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "7282",
+      "name": "슈발베 썬더 볼트 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "7281",
+      "name": "슈발베 노비닉 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "7280",
+      "name": "슈발베 로켓론 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "7279",
+      "name": "슈발베 레이싱 랄프 애딕스 TLE MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5769",
+      "name": "슈발베 빅 애플 클린처 와이어 액티브 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5756",
+      "name": "슈발베 허리케인 와이어 MTB 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5703",
+      "name": "슈발베 인사이더 클린처 폴딩 로드 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5700",
+      "name": "슈발베 마라톤 플러스 클린처 와이어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5698",
+      "name": "슈발베 마라톤 플러스 투어 클린처 와이어 투어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5697",
+      "name": "슈발베 마라톤 플러스 MTB 클린처 와이어 투어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5695",
+      "name": "슈발베 마라톤 올모션 TLE 투어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5693",
+      "name": "슈발베 마라톤 슈프림 클린처 폴딩 투어 타이어",
+      "seo_status": "verified"
+    },
+    {
+      "id": "5692",
+      "name": "슈발베 마라톤 레이서 클린처 와이어 투어 타이어",
+      "seo_status": "verified"
+    }
+  ],
+  "smartstore": [
+    {
+      "id": "13694781079",
+      "name": "슈발베 G-ONE R 프로 TLR 그래블 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "13694674230",
+      "name": "슈발베 마라톤 에피션스 프로 TLR 투어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "13694645532",
+      "name": "슈발베 마라톤 몬디얼 TLR 투어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "13694341910",
+      "name": "슈발베 매직 메리 프로 TLR MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "6501704664",
+      "name": "슈발베 래피드랍 클린처 와이어 MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "6461851121",
+      "name": "슈발베 래피드랍 클린처 폴딩 MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "6461850210",
+      "name": "슈발베 레이싱 레이 클린처 폴딩 퍼포먼스 MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "6403522217",
+      "name": "슈발베 위키드윌 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "6003747731",
+      "name": "슈발베 점보 짐 클린처 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "5906256191",
+      "name": "슈발베 빅베티 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "5468193537",
+      "name": "슈발베 빅 애플 클린처 와이어 타이어 (퍼포먼스)",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "5041770378",
+      "name": "슈발베 G-ONE 울트라바이트 TLE 에볼루션 그래블 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "5041749381",
+      "name": "슈발베 G-ONE 스피드 TLE 로드 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4822767661",
+      "name": "슈발베 프로원 TT TLE 로드 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4748599169",
+      "name": "슈발베 루가노 II 클린처 와이어 로드 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4693849464",
+      "name": "슈발베 프로원 TLE 로드 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4693823793",
+      "name": "슈발베 프로원 튜브타입 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4693822558",
+      "name": "슈발베 원 TLE 로드 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4693821315",
+      "name": "슈발베 원 튜브타입 로드 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4544634084",
+      "name": "슈발베 빅 벤 플러스 클린처 와이어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "4543710582",
+      "name": "슈발베 레이싱 레이 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "3220610452",
+      "name": "슈발베 매직 메리 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "3220599567",
+      "name": "슈발베 썬더 볼트 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "3220575217",
+      "name": "슈발베 노비닉 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "3220565855",
+      "name": "슈발베 로켓론 애딕스 TLE MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2121071507",
+      "name": "슈발베 빅 애플 클린처 와이어 타이어 (액티브)",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2121035944",
+      "name": "슈발베 허리케인 와이어 MTB 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2120977279",
+      "name": "슈발베 인사이더 클린처 폴딩 로드 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2120972460",
+      "name": "슈발베 마라톤 플러스 클린처 와이어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2120969233",
+      "name": "슈발베 마라톤 플러스 투어 클린처 와이어 투어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2120968172",
+      "name": "슈발베 마라톤 플러스 MTB 클린처 와이어 투어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2120967095",
+      "name": "슈발베 마라톤 올모션 TLE 투어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2120965578",
+      "name": "슈발베 마라톤 슈프림 클린처 폴딩 투어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "2120965016",
+      "name": "슈발베 마라톤 레이서 클린처 와이어 투어 타이어",
+      "seo_status": "saved_pending_reopen"
+    },
+    {
+      "id": "13694761128",
+      "edit": "13634497619",
+      "name": "슈발베 G-ONE RS 프로 TLR 그래블 타이어",
+      "price": 110000,
+      "options": [
+        "700X35C 트렌스페어렌츠 스킨",
+        "700X40C 블랙",
+        "32X2.00 블랙"
+      ],
+      "qty": [
+        5,
+        5,
+        5
+      ],
+      "status": "저장 완료 및 상품명·SEO 재열람 확인. 저장 전 옵션 5·5·5 확인, 최종 옵션 재열람은 연결중단"
+    },
+    {
+      "id": "6461849185",
+      "edit": "6431027091",
+      "name": "슈발베 로켓론 TLR 퍼포먼스 MTB 타이어",
+      "price": 66000,
+      "options": [
+        "26X2.25 블랙",
+        "27.5X2.25 블랙",
+        "29X2.25 블랙"
+      ],
+      "qty": [
+        0,
+        0,
+        5
+      ],
+      "status": "저장 및 상품명·SEO·옵션 0·0·5 재열람 검증 완료"
+    }
+  ],
+  "deletions": {
+    "cafe24": {
+      "11041": "absence_verified",
+      "11044": "user_reported_deleted",
+      "12311": "user_reported_deleted"
+    },
+    "smartstore": {
+      "2120974985": "not_found_individual_search",
+      "2120995611": "not_found_individual_search",
+      "6074032063": "not_found_individual_search"
+    }
+  },
+  "pending": [
+    "Smartstore RS final option reopen",
+    "Smartstore 34 saved products reopen verification",
+    "Lugano II wire Endurance identity",
+    "Cross-channel exact product-name alignment"
+  ]
+}
