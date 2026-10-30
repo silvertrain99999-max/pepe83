@@ -92,3 +92,8 @@ python -m unittest discover -s suppliers -p "test_*.py" -v
 - 공급사: NNX SPORTS(나눅스)
 - 브랜드: HUTCHINSON(허치슨)
 - 상품목록: https://www.nnxsports.com/shop/goods/goods_list.php?category=005003002
+## 웰튠 (WELLTUNED)
+- 공식 사이트: https://www.welltuned.co.kr/
+- 주요 공급사 목록 최하단 추가: 2026-10-30
+- 웰튠 추가로 주요 공급사는 총 7곳입니다. 기존 설정파일은 6개이며 웰튠은 목록 등록 단계입니다.
+- 취급 브랜드 및 가격·재고·옵션 관리 기준: 확인 후 정리
