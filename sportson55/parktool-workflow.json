@@ -1,0 +1,115 @@
+{
+  "version": "2026-11-09",
+  "supplier": "SPORTS55",
+  "brand": "Park Tool",
+  "channels": [
+    "CF",
+    "SS"
+  ],
+  "classification_ref": "docs/YBBIKE_작업분류코드_v1.md",
+  "mode": "documented_workflow_no_online_executor",
+  "pm": {
+    "codes": [
+      "PM-01",
+      "PM-02",
+      "PM-03",
+      "PM-04"
+    ],
+    "stock": {
+      "supplier_orderable": 20,
+      "supplier_sold_out": "confirmed_store_stock",
+      "no_supplier_or_store_stock": 0,
+      "unknown": "hold"
+    },
+    "hold_models": [
+      "GG-1",
+      "CTP-C",
+      "DT-2"
+    ],
+    "match_keys": [
+      "model",
+      "variant",
+      "package",
+      "sales_unit"
+    ],
+    "preserve": [
+      "discount_rate",
+      "discount_amount",
+      "discount_period",
+      "display_state",
+      "gift"
+    ]
+  },
+  "pe": {
+    "execution_order": [
+      "PE-02",
+      "PE-03",
+      "PE-04",
+      "PE-05"
+    ],
+    "name_format": [
+      "brand",
+      "exact_model",
+      "tool_name_or_use",
+      "verified_spec_or_package"
+    ],
+    "smartstore_check_dedicated_name": true,
+    "protect": [
+      "price",
+      "stock",
+      "options",
+      "discounts",
+      "shipping",
+      "selling_state",
+      "display_state",
+      "gift"
+    ],
+    "do_not_infer": [
+      "compatibility",
+      "discontinued_status",
+      "certification",
+      "specification"
+    ],
+    "search_performance_measured": false
+  },
+  "verification": {
+    "states": [
+      "pending",
+      "in_progress",
+      "user_action_needed",
+      "save_unverified",
+      "save_confirmed",
+      "reopened_verified",
+      "export_verified"
+    ],
+    "identity_check_required": true,
+    "click_is_not_completion": true,
+    "stale_read": "invalidate_affected_records_and_recheck_visible_values",
+    "unsaved_input": "do_not_reload",
+    "search_visibility_separate_from_save": true
+  },
+  "result_20261109": {
+    "pm": {
+      "supplier_catalog": 372,
+      "cafe24_registered": 226,
+      "smartstore_registered": 312,
+      "inventory_changed_models": 3,
+      "inventory_changed_listings": 4,
+      "base_price_changed": 0
+    },
+    "pe": {
+      "cafe24_checked": 223,
+      "smartstore_checked": 309,
+      "cafe24_name_changed": 45,
+      "dedicated_name_additional_changed": 86,
+      "dedicated_name_export_mismatch": 0,
+      "final_common_description_repairs": 5,
+      "final_description_evidence": "save_success_notice_after_export"
+    },
+    "holds": [
+      "GG-1",
+      "CTP-C",
+      "DT-2"
+    ]
+  }
+}
