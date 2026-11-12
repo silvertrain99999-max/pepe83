@@ -1,0 +1,4863 @@
+{
+  "schema_version": 1,
+  "compiled_at": "2026-11-12",
+  "scope": "2026-11-10 등록/SEO 기록 + 2026-11-12 신규 5종. 전체 실시간 전수조회 아님",
+  "counts": {
+    "products": 131,
+    "cafe24": 127,
+    "smartstore": 70,
+    "linked": 66,
+    "new_products": 5
+  },
+  "rules": {
+    "identity": "채널+상품번호를 등록 식별자로 사용. 동일번호 모델 변경 시 이전 이력 보존",
+    "matching": "정규화 상품명 완전일치만 자동 연결. 미연결은 미등록 확정 아님",
+    "category": "null은 미확인; 자동 추정 분류 금지",
+    "deletion": "본사 미검색만으로 단종 확정 금지. 삭제일·대상번호 확인 후 이력 처리",
+    "stock": "과거 가격·재고를 현재값으로 사용하지 않음",
+    "copy_registration": "상품명·모델명·요약/간략설명·검색어·SEO·Alt에 원본 상품 정보가 남았는지 확인"
+  },
+  "products": [
+    {
+      "code": "SRAM-REG-0004",
+      "name": "스램 SRAM 라이벌 RIVAL AXS E1 로드 무선 전동 뒷변속기",
+      "category_code": "sram.road.etap_axs",
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15610",
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13859",
+          "name": "스램 SRAM 라이벌 RIVAL AXS E1 로드 무선 전동 뒷변속기",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 후 재열람 확인"
+          },
+          "historical_price": null,
+          "price_date": "2026-11-10",
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "category_code": "sram.road.etap_axs",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15610",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "hold": null
+        },
+        {
+          "channel": "smartstore",
+          "id": "13869397746",
+          "name": "스램 SRAM 라이벌 RIVAL AXS E1 로드 무선 전동 뒷변속기",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.road.etap_axs",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15610",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 완료 안내 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0113",
+      "name": "스램 SRAM 포스 FORCE AXS E1 로드 유압 시프터 브레이크 세트",
+      "category_code": "sram.road.etap_axs",
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15594",
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4000",
+          "name": "스램 SRAM 포스 FORCE AXS E1 로드 유압 시프터 브레이크 세트",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 후 재열람 확인"
+          },
+          "historical_price": null,
+          "price_date": "2026-11-10",
+          "category_code": "sram.road.etap_axs",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15594",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null
+        },
+        {
+          "channel": "smartstore",
+          "id": "13869500021",
+          "name": "스램 SRAM 포스 FORCE AXS E1 로드 유압 시프터 브레이크 세트",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.road.etap_axs",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15594",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 완료 안내 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0129",
+      "name": "스램 SRAM S500 이글 32T MTB 크랭크세트",
+      "category_code": "sram.mtb.s_series_12",
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15848",
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13891",
+          "name": "스램 SRAM S500 이글 32T MTB 크랭크세트",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.mtb.s_series_12",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15848",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 후 재열람 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        },
+        {
+          "channel": "smartstore",
+          "id": "13869535879",
+          "name": "스램 SRAM S500 이글 32T MTB 크랭크세트",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.mtb.s_series_12",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15848",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 후 재열람 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0130",
+      "name": "스램 SRAM 라이벌 RIVAL AXS E1 로드 유압 시프터 브레이크 세트",
+      "category_code": "sram.road.etap_axs",
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15608",
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13890",
+          "name": "스램 SRAM 라이벌 RIVAL AXS E1 로드 유압 시프터 브레이크 세트",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.road.etap_axs",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15608",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 후 재열람 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        },
+        {
+          "channel": "smartstore",
+          "id": "13869448720",
+          "name": "스램 SRAM 라이벌 RIVAL AXS E1 로드 유압 시프터 브레이크 세트",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.road.etap_axs",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15608",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 완료 안내 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0131",
+      "name": "스램 SRAM S200 이글 12단 MTB 자전거 체인",
+      "category_code": "sram.mtb.s_series_12",
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15851",
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13889",
+          "name": "스램 SRAM S200 이글 12단 MTB 자전거 체인",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.mtb.s_series_12",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15851",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 후 재열람 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        },
+        {
+          "channel": "smartstore",
+          "id": "13866817697",
+          "name": "스램 SRAM S200 이글 12단 MTB 자전거 체인",
+          "observed_date": "2026-11-12",
+          "source": "현재 대화 관리자 화면 확인·저장 결과",
+          "registration": "등록 확인",
+          "category_code": "sram.mtb.s_series_12",
+          "category_basis": "기존 분류기준에 따른 관리 분류",
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15851",
+          "supplier_link_basis": "기존 본사 연결 기록; 오늘 가격·재고 재조회 아님",
+          "seo": {
+            "date": "2026-11-12",
+            "status": "저장 완료 안내 확인"
+          },
+          "pm": {
+            "status": "이번 작업에서 가격·재고·옵션 미변경",
+            "date": "2026-11-12"
+          },
+          "hold": null,
+          "historical_price": null
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0001",
+      "name": "스램 SRAM FORCE E1 포스 TM 파워미터 스파이더",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13862",
+          "name": "스램 SRAM FORCE E1 포스 TM 파워미터 스파이더",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 TM 파워미터 스파이더 | YBBIKE",
+            "description": "스램 FORCE E1 포스 파워미터 스파이더. TM 나사산 체인링 마운트 방식으로, 호환 체인링과 크랭크 조합을 확인해 장착하는 파워 측정 부품입니다.",
+            "keywords": "스램,SRAM,FORCE E1,포스,파워미터,파워미터스파이더,TM,Thread Mount,로드자전거,사이클링파워미터"
+          },
+          "historical_price": "600000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "reopened_verified",
+            "source": "checkpoint.json"
+          }
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822971395",
+          "name": "스램 SRAM FORCE E1 포스 TM 파워미터 스파이더",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 TM 파워미터 스파이더 | YBBIKE",
+            "description": "스램 FORCE E1 포스 파워미터 스파이더. TM 나사산 체인링 마운트 방식으로, 호환 체인링과 크랭크 조합을 확인해 장착하는 파워 측정 부품입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761686762",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "save_confirmed",
+            "source": "checkpoint.json"
+          }
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0002",
+      "name": "스램 SRAM FORCE E1 포스 2x 로드 체인링 킷",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15605",
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13861",
+          "name": "스램 SRAM FORCE E1 포스 2x 로드 체인링 킷",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 2x 로드 체인링 킷 | YBBIKE",
+            "description": "스램 FORCE E1 포스 2x 로드 체인링 킷. 더블 체인링 구동계 교체용으로, 선택 규격과 크랭크 및 마운트 호환성을 확인해 주세요.",
+            "keywords": "스램,SRAM,FORCE E1,포스,체인링,체인링킷,더블체인링,2x,로드체인링,자전거체인링"
+          },
+          "historical_price": "430000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "stock_verified",
+            "source": "checkpoint.json"
+          },
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15605"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822955413",
+          "name": "스램 SRAM FORCE E1 포스 2x 로드 체인링 킷",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 2x 로드 체인링 킷 | YBBIKE",
+            "description": "스램 FORCE E1 포스 2x 로드 체인링 킷. 더블 체인링 구동계 교체용으로, 선택 규격과 크랭크 및 마운트 호환성을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761670883"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0003",
+      "name": "스램 SRAM FORCE E1 포스 DUB 카본 크랭크암 어셈블리",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15607",
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13860",
+          "name": "스램 SRAM FORCE E1 포스 DUB 카본 크랭크암 어셈블리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 DUB 카본 크랭크암 어셈블리 | YBBIKE",
+            "description": "스램 FORCE E1 포스 카본 크랭크암 어셈블리. DUB 스핀들과 8볼트 체인링 인터페이스를 적용한 로드 구동계 부품으로, 크랭크 길이와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,FORCE E1,포스,크랭크암,카본크랭크암,DUB,8볼트,로드크랭크,크랭크어셈블리"
+          },
+          "historical_price": "290000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "user_updated_verification_pending",
+            "source": "checkpoint.json"
+          },
+          "supplier_url": "https://glnco.co.kr/product/product_view.html?b_code=15607"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822948163",
+          "name": "스램 SRAM FORCE E1 포스 DUB 카본 크랭크암 어셈블리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 DUB 카본 크랭크암 어셈블리 | YBBIKE",
+            "description": "스램 FORCE E1 포스 카본 크랭크암 어셈블리. DUB 스핀들과 8볼트 체인링 인터페이스를 적용한 로드 구동계 부품으로, 크랭크 길이와 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761663671"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0005",
+      "name": "스램 SRAM FORCE AXS E1 포스 로드 무선 전동 앞변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13858",
+          "name": "스램 SRAM FORCE AXS E1 포스 로드 무선 전동 앞변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE AXS E1 포스 로드 무선 전동 앞변속기 | YBBIKE",
+            "description": "스램 FORCE AXS E1 포스 앞변속기. AXS 무선 전동 변속을 적용한 로드 더블 구동계 부품으로, 체인링 및 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,FORCE AXS E1,포스,앞변속기,전동앞변속기,무선변속기,로드구동계,AXS"
+          },
+          "historical_price": "440000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "reopened_verified",
+            "source": "checkpoint.json"
+          }
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822821688",
+          "name": "스램 SRAM FORCE AXS E1 포스 로드 무선 전동 앞변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE AXS E1 포스 로드 무선 전동 앞변속기 | YBBIKE",
+            "description": "스램 FORCE AXS E1 포스 앞변속기. AXS 무선 전동 변속을 적용한 로드 더블 구동계 부품으로, 체인링 및 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761537908",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "save_confirmed",
+            "source": "checkpoint.json"
+          }
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0006",
+      "name": "스램 SRAM RIVAL E1 라이벌 12단 13단 플랫탑 체인",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13857",
+          "name": "스램 SRAM RIVAL E1 라이벌 12단 13단 플랫탑 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RIVAL E1 라이벌 12단 13단 플랫탑 체인 | YBBIKE",
+            "description": "스램 RIVAL E1 라이벌 플랫탑 체인. SRAM 로드 12단 및 XPLR AXS 13단 구동계에 대응하는 교체용 자전거 체인입니다.",
+            "keywords": "스램,SRAM,RIVAL E1,라이벌체인,플랫탑체인,Flattop,12단체인,13단체인,로드체인,XPLR AXS"
+          },
+          "historical_price": "78000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "verified_unchanged",
+            "source": "checkpoint.json"
+          }
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822814570",
+          "name": "스램 SRAM RIVAL E1 라이벌 12단 13단 플랫탑 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RIVAL E1 라이벌 12단 13단 플랫탑 체인 | YBBIKE",
+            "description": "스램 RIVAL E1 라이벌 플랫탑 체인. SRAM 로드 12단 및 XPLR AXS 13단 구동계에 대응하는 교체용 자전거 체인입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761530837"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0007",
+      "name": "스램 SRAM S100 이글 12단 MTB 트리거 쉬프터 변속레버",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13856",
+          "name": "스램 SRAM S100 이글 12단 MTB 트리거 쉬프터 변속레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S100 이글 12단 MTB 트리거 쉬프터 변속레버 | YBBIKE",
+            "description": "스램 S100 이글 트리거 쉬프터. MTB 이글 구동계용 케이블식 변속레버로, 뒷변속기와 장착 규격의 호환성을 확인해 주세요.",
+            "keywords": "스램,SRAM,S100,이글,Eagle,트리거쉬프터,쉬프터,변속레버,MTB변속레버,기계식변속,12단쉬프터"
+          },
+          "historical_price": "49000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "verified_unchanged",
+            "source": "checkpoint.json"
+          }
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822802462",
+          "name": "스램 SRAM S100 이글 12단 MTB 트리거 쉬프터 변속레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S100 이글 12단 MTB 트리거 쉬프터 변속레버 | YBBIKE",
+            "description": "스램 S100 이글 트리거 쉬프터. MTB 이글 구동계용 케이블식 변속레버로, 뒷변속기와 장착 규격의 호환성을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761518816"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0008",
+      "name": "스램 SRAM S200 이글 12단 MTB 트리거 쉬프터 변속레버",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13855",
+          "name": "스램 SRAM S200 이글 12단 MTB 트리거 쉬프터 변속레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S200 이글 12단 MTB 트리거 쉬프터 변속레버 | YBBIKE",
+            "description": "스램 S200 이글 트리거 쉬프터. X-Actuation 방식의 MTB 케이블식 변속레버로, 이글 구동계와 장착 규격의 호환성을 확인해 주세요.",
+            "keywords": "스램,SRAM,S200,이글,Eagle,트리거쉬프터,쉬프터,변속레버,MTB변속레버,X-Actuation,12단쉬프터"
+          },
+          "historical_price": "62000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822799730",
+          "name": "스램 SRAM S200 이글 12단 MTB 트리거 쉬프터 변속레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S200 이글 12단 MTB 트리거 쉬프터 변속레버 | YBBIKE",
+            "description": "스램 S200 이글 트리거 쉬프터. X-Actuation 방식의 MTB 케이블식 변속레버로, 이글 구동계와 장착 규격의 호환성을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761516107"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0009",
+      "name": "스램 SRAM S100 이글 12단 MTB 자전거 체인",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13854",
+          "name": "스램 SRAM S100 이글 12단 MTB 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S100 이글 12단 MTB 자전거 체인 | YBBIKE",
+            "description": "스램 S100 이글 12단 MTB 체인. Eagle 구동계용 솔리드 핀 구조의 교체용 체인으로, 사용 중인 체인 규격과 길이를 확인해 주세요.",
+            "keywords": "스램,SRAM,S100,이글체인,Eagle,12단체인,MTB체인,자전거체인,체인교체,파워락"
+          },
+          "historical_price": "50000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "verified_unchanged",
+            "source": "checkpoint.json"
+          }
+        },
+        {
+          "channel": "smartstore",
+          "id": "13822788031",
+          "name": "스램 SRAM S100 이글 12단 MTB 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S100 이글 12단 MTB 자전거 체인 | YBBIKE",
+            "description": "스램 S100 이글 12단 MTB 체인. Eagle 구동계용 솔리드 핀 구조의 교체용 체인으로, 사용 중인 체인 규격과 길이를 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761504480",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "hold",
+            "source": "checkpoint.json"
+          }
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0010",
+      "name": "스램 SRAM S500 이글 AXS 12단 MTB 무선 전동 뒷변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13853",
+          "name": "스램 SRAM S500 이글 AXS 12단 MTB 무선 전동 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S500 이글 AXS 12단 MTB 무선 전동 뒷변속기 | YBBIKE",
+            "description": "스램 S500 이글 AXS 12단 무선 전동 뒷변속기. Eagle 10-50T·10-52T 카세트에 대응하며, MTB 구동계 교체와 업그레이드용입니다.",
+            "keywords": "스램,SRAM,S500,이글,AXS,12단변속기,MTB변속기,무선변속기,전동변속기,뒷변속기"
+          },
+          "historical_price": "700000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "reopened_verified",
+            "source": "checkpoint.json"
+          }
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821152472",
+          "name": "스램 SRAM S500 이글 AXS 12단 MTB 무선 전동 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S500 이글 AXS 12단 MTB 무선 전동 뒷변속기 | YBBIKE",
+            "description": "스램 S500 이글 AXS 12단 무선 전동 뒷변속기. Eagle 10-50T·10-52T 카세트에 대응하며, MTB 구동계 교체와 업그레이드용입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13759879237"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0011",
+      "name": "스램 SRAM MAVEN 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13852",
+          "name": "스램 SRAM MAVEN 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MAVEN 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MAVEN 얼티메이트 4피스톤 유압 디스크 브레이크. MTB 산악자전거용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": "스램,MAVEN,메이븐,얼티메이트,MTB브레이크,산악자전거브레이크,유압디스크브레이크,4피스톤브레이크,브레이크세트"
+          },
+          "historical_price": "960000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821298009",
+          "name": "스램 SRAM MAVEN 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MAVEN 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MAVEN 얼티메이트 4피스톤 유압 디스크 브레이크. MTB 산악자전거용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13760023854"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0012",
+      "name": "스램 SRAM MAVEN 실버 4피스톤 MTB 유압 디스크 브레이크 세트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13851",
+          "name": "스램 SRAM MAVEN 실버 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MAVEN 실버 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MAVEN 실버 4피스톤 유압 디스크 브레이크. MTB 산악자전거용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": "스램,MAVEN,메이븐,실버,MTB브레이크,산악자전거브레이크,유압디스크브레이크,4피스톤브레이크,브레이크세트"
+          },
+          "historical_price": "854000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821303644",
+          "name": "스램 SRAM MAVEN 실버 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MAVEN 실버 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MAVEN 실버 4피스톤 유압 디스크 브레이크. MTB 산악자전거용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13760029445"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0013",
+      "name": "스램 SRAM MAVEN 베이스 스텔스 4피스톤 MTB 유압 디스크 브레이크 세트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13850",
+          "name": "스램 SRAM MAVEN 베이스 스텔스 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MAVEN 베이스 스텔스 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MAVEN 베이스 스텔스 4피스톤 유압 디스크 브레이크. MTB 산악자전거용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": "스램,MAVEN,메이븐,베이스스텔스,MTB브레이크,산악자전거브레이크,유압디스크브레이크,4피스톤브레이크,브레이크세트"
+          },
+          "historical_price": "594000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821311975",
+          "name": "스램 SRAM MAVEN 베이스 스텔스 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MAVEN 베이스 스텔스 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MAVEN 베이스 스텔스 4피스톤 유압 디스크 브레이크. MTB 산악자전거용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13760037705"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0014",
+      "name": "스램 SRAM MOTIVE 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13849",
+          "name": "스램 SRAM MOTIVE 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MOTIVE 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MOTIVE 얼티메이트 4피스톤 유압 디스크 브레이크. XC와 트레일 MTB용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": "스램,MOTIVE,모티브,얼티메이트,MTB브레이크,XC브레이크,트레일브레이크,유압디스크브레이크,4피스톤브레이크,브레이크세트"
+          },
+          "historical_price": "886000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821316260",
+          "name": "스램 SRAM MOTIVE 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM MOTIVE 얼티메이트 4피스톤 MTB 유압 디스크 브레이크 세트 | YBBIKE",
+            "description": "스램 MOTIVE 얼티메이트 4피스톤 유압 디스크 브레이크. XC와 트레일 MTB용 미네랄 오일 방식이며, 앞뒤 2개 세트 구성입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13760041957"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0015",
+      "name": "스램 SRAM S100 이글 12단 MTB 기계식 뒷변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13847",
+          "name": "스램 SRAM S100 이글 12단 MTB 기계식 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S100 이글 12단 MTB 기계식 뒷변속기 | YBBIKE",
+            "description": "스램 S100 이글 12단 기계식 뒷변속기. 최대 50T 카세트에 대응하는 MTB 산악자전거용 Eagle 구동계 부품입니다.",
+            "keywords": "스램,SRAM,S100,이글,Eagle,12단변속기,MTB변속기,산악자전거변속기,기계식변속기,뒷변속기"
+          },
+          "historical_price": "105000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821130325",
+          "name": "스램 SRAM S100 이글 12단 MTB 기계식 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S100 이글 12단 MTB 기계식 뒷변속기 | YBBIKE",
+            "description": "스램 S100 이글 12단 기계식 뒷변속기. 최대 50T 카세트에 대응하는 MTB 산악자전거용 Eagle 구동계 부품입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13759857240"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0016",
+      "name": "스램 SRAM S500 이글 12단 MTB 자전거 체인",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13846",
+          "name": "스램 SRAM S500 이글 12단 MTB 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S500 이글 12단 MTB 자전거 체인 | YBBIKE",
+            "description": "스램 S500 이글 12단 체인. Eagle 구동계용 MTB 자전거 체인으로, 교체 시 기존 구동계와 체인 규격을 확인하세요.",
+            "keywords": "스램,SRAM,S500,이글,Eagle,12단체인,MTB체인,자전거체인,산악자전거체인,이글체인"
+          },
+          "historical_price": "156000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821085256",
+          "name": "스램 SRAM S500 이글 12단 MTB 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S500 이글 12단 MTB 자전거 체인 | YBBIKE",
+            "description": "스램 S500 이글 12단 체인. Eagle 구동계용 MTB 자전거 체인으로, 교체 시 기존 구동계와 체인 규격을 확인하세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13759812527"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0017",
+      "name": "스램 SRAM S200 이글 12단 MTB 기계식 뒷변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13845",
+          "name": "스램 SRAM S200 이글 12단 MTB 기계식 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S200 이글 12단 MTB 기계식 뒷변속기 | YBBIKE",
+            "description": "스램 S200 이글 12단 기계식 뒷변속기. Eagle 10-50T·10-52T 카세트에 대응하는 MTB 산악자전거용 구동계 부품입니다.",
+            "keywords": "스램,SRAM,S200,이글,Eagle,12단변속기,MTB변속기,산악자전거변속기,기계식변속기,뒷변속기"
+          },
+          "historical_price": "207000",
+          "price_date": "2026-11-10",
+          "pm": {
+            "date": "2026-11-10",
+            "status": "reopened_verified",
+            "source": "checkpoint.json"
+          }
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821018551",
+          "name": "스램 SRAM S200 이글 12단 MTB 기계식 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM S200 이글 12단 MTB 기계식 뒷변속기 | YBBIKE",
+            "description": "스램 S200 이글 12단 기계식 뒷변속기. Eagle 10-50T·10-52T 카세트에 대응하는 MTB 산악자전거용 구동계 부품입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13759746263"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0018",
+      "name": "스램 SRAM RED XG-1290 E1 카세트 스프라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13844",
+          "name": "스램 SRAM RED XG-1290 E1 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED XG-1290 E1 카세트 스프라켓 | YBBIKE",
+            "description": "스램 RED XG-1290 E1 카세트 스프라켓입니다. 색상과 톱니 규격은 옵션에서 선택하며, 구매 전 구동계와 프리허브 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,레드,XG-1290,XG1290,E1,카세트,카세트스프라켓,로드스프라켓,자전거스프라켓"
+          },
+          "historical_price": "770000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13810172390",
+          "name": "스램 SRAM RED XG-1290 E1 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED XG-1290 E1 카세트 스프라켓 | YBBIKE",
+            "description": "스램 RED XG-1290 E1 카세트 스프라켓입니다. 색상과 톱니 규격은 옵션에서 선택하며, 구매 전 구동계와 프리허브 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13748965967"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0019",
+      "name": "스램 SRAM XX SL 이글 AXS 트랜스미션 파워미터 스파이더",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13843",
+          "name": "스램 SRAM XX SL 이글 AXS 트랜스미션 파워미터 스파이더",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX SL 이글 AXS 트랜스미션 파워미터 스파이더 | YBBIKE",
+            "description": "스램 SRAM XX SL 이글 AXS 트랜스미션 파워미터 스파이더. MTB 파워미터를 찾는 라이더를 위한 제품으로, 구매 전 크랭크·체인링 장착 규격과 포함 구성품을 확인하세요.",
+            "keywords": "스램,SRAM,XX SL,XXSL,이글,Eagle,AXS,트랜스미션,Transmission,파워미터,파워미터스파이더,스파이더파워미터,자전거파워미터,MTB파워미터,산악자전거파워미터"
+          },
+          "historical_price": "850000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13808239445",
+          "name": "스램 SRAM XX SL 이글 AXS 트랜스미션 파워미터 스파이더",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX SL 이글 AXS 트랜스미션 파워미터 스파이더 | YBBIKE",
+            "description": "스램 SRAM XX SL 이글 AXS 트랜스미션 파워미터 스파이더. MTB 파워미터를 찾는 라이더를 위한 제품으로, 구매 전 크랭크·체인링 장착 규격과 포함 구성품을 확인하세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13747044686"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0020",
+      "name": "스램 SRAM 70 이글 트랜스미션 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13702",
+          "name": "스램 SRAM 70 이글 트랜스미션 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 70 이글 트랜스미션 뒷변속기 | YBBIKE",
+            "description": "스램 70 이글 트랜스미션 뒷변속기입니다. 구매 전 프레임 장착 방식과 사용 중인 구동계의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,70,이글,EAGLE,트랜스미션,뒷변속기,MTB변속기"
+          },
+          "historical_price": "208000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0021",
+      "name": "스램 SRAM 90 이글 트랜스미션 트리거 쉬프터",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13701",
+          "name": "스램 SRAM 90 이글 트랜스미션 트리거 쉬프터",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 90 이글 트랜스미션 트리거 쉬프터 | YBBIKE",
+            "description": "스램 90 이글 트랜스미션 트리거 쉬프터입니다. 클릭 방식은 옵션에서 선택하며, 사용 중인 변속 시스템 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,90,이글,트랜스미션,트리거쉬프터,변속레버,MTB쉬프터"
+          },
+          "historical_price": "85000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12832841020",
+          "name": "스램 SRAM 90 이글 트랜스미션 트리거 쉬프터",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 90 이글 트랜스미션 트리거 쉬프터 | YBBIKE",
+            "description": "스램 90 이글 트랜스미션 트리거 쉬프터입니다. 클릭 방식은 옵션에서 선택하며, 사용 중인 변속 시스템 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/12775436846"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0022",
+      "name": "스램 SRAM 90 이글 트랜스미션 MTB 크랭크세트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13700",
+          "name": "스램 SRAM 90 이글 트랜스미션 MTB 크랭크세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 90 이글 트랜스미션 MTB 크랭크세트 | YBBIKE",
+            "description": "스램 90 이글 트랜스미션 MTB 크랭크세트입니다. 크랭크 길이는 등록된 옵션에서 선택하며, 프레임과 구동계의 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,90,이글,트랜스미션,MTB크랭크,크랭크세트,자전거크랭크"
+          },
+          "historical_price": "260000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12832635927",
+          "name": "스램 SRAM 90 이글 트랜스미션 MTB 크랭크세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 90 이글 트랜스미션 MTB 크랭크세트 | YBBIKE",
+            "description": "스램 90 이글 트랜스미션 MTB 크랭크세트입니다. 크랭크 길이는 등록된 옵션에서 선택하며, 프레임과 구동계의 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/12775232237"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0023",
+      "name": "스램 SRAM 90 이글 트랜스미션 뒷변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13699",
+          "name": "스램 SRAM 90 이글 트랜스미션 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 90 이글 트랜스미션 뒷변속기 | YBBIKE",
+            "description": "스램 90 이글 트랜스미션 뒷변속기입니다. 구매 전 프레임과 변속 시스템의 트랜스미션 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,90,이글,트랜스미션,뒷변속기,MTB변속기,리어디레일러"
+          },
+          "historical_price": "315000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12832675246",
+          "name": "스램 SRAM 90 이글 트랜스미션 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 90 이글 트랜스미션 뒷변속기 | YBBIKE",
+            "description": "스램 90 이글 트랜스미션 뒷변속기입니다. 구매 전 프레임과 변속 시스템의 트랜스미션 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/12775271480"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0024",
+      "name": "스램 SRAM FORCE E1 포스 자전거 체인",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13650",
+          "name": "스램 SRAM FORCE E1 포스 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 자전거 체인 | YBBIKE",
+            "description": "스램 FORCE E1 포스 체인입니다. 체인 교체 시 사용 중인 구동계의 세대와 체인 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,FORCE,E1,포스체인,FORCEE1,자전거체인,로드체인,체인교체"
+          },
+          "historical_price": "101000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12069837101",
+          "name": "스램 SRAM FORCE E1 포스 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE E1 포스 자전거 체인 | YBBIKE",
+            "description": "스램 FORCE E1 포스 체인입니다. 체인 교체 시 사용 중인 구동계의 세대와 체인 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/12014417803"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0025",
+      "name": "스램 SRAM RED AXS E1 변속 브레이크 레버 캘리퍼 제외",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13648",
+          "name": "스램 SRAM RED AXS E1 변속 브레이크 레버 캘리퍼 제외",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED AXS E1 변속 브레이크 레버 캘리퍼 제외 | YBBIKE",
+            "description": "스램 RED AXS E1 변속 브레이크 레버입니다. 캘리퍼 제외 구성으로, 좌우 방향은 옵션에서 선택하고 사용 시스템의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,AXS,E1,레드레버,변속레버,브레이크레버,캘리퍼제외"
+          },
+          "historical_price": "790000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0026",
+      "name": "스램 SRAM RED AXS E1 변속 레버 유압 브레이크 세트",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13647",
+          "name": "스램 SRAM RED AXS E1 변속 레버 유압 브레이크 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED AXS E1 변속 레버 유압 브레이크 세트 | YBBIKE",
+            "description": "스램 RED AXS E1 변속 레버와 유압 브레이크 세트입니다. 좌우 방향은 옵션에서 선택하며, 구매 전 장착 규격과 구성품을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,AXS,E1,레드레버,변속레버,유압브레이크,로드브레이크"
+          },
+          "historical_price": "1190000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0027",
+      "name": "스램 SRAM RED 8볼트 크랭크암 어셈블리",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13646",
+          "name": "스램 SRAM RED 8볼트 크랭크암 어셈블리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED 8볼트 크랭크암 어셈블리 | YBBIKE",
+            "description": "스램 RED 8볼트 크랭크암 어셈블리입니다. 비비와 체인링은 미포함이며, 크랭크 길이와 장착 규격을 확인한 뒤 선택해 주세요.",
+            "keywords": "스램,SRAM,RED,레드,크랭크암,크랭크암어셈블리,8볼트크랭크,로드크랭크"
+          },
+          "historical_price": "690000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12042977516",
+          "name": "스램 SRAM RED 8볼트 크랭크암 어셈블리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "save_success_visible",
+            "date": "2026-11-10",
+            "title": null,
+            "description": null,
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11987621780"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0028",
+      "name": "스램 SRAM RED E1 레드 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13645",
+          "name": "스램 SRAM RED E1 레드 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED E1 레드 자전거 체인 | YBBIKE",
+            "description": "스램 RED E1 레드 체인입니다. 색상은 상품 옵션에서 선택하며, 교체 전 구동계의 세대와 체인 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,E1,레드체인,REDE1,자전거체인,로드체인,체인교체"
+          },
+          "historical_price": "160000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0029",
+      "name": "스램 SRAM APEX 에이펙스 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13643",
+          "name": "스램 SRAM APEX 에이펙스 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM APEX 에이펙스 자전거 체인 | YBBIKE",
+            "description": "스램 APEX 에이펙스 자전거 체인입니다. 교체 전 사용 중인 구동계의 세대와 체인 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,APEX,에이펙스,아펙스,APEX체인,자전거체인,체인교체"
+          },
+          "historical_price": "50000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0030",
+      "name": "스램 SRAM GX 이글 AXS MTB 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13642",
+          "name": "스램 SRAM GX 이글 AXS MTB 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 AXS MTB 뒷변속기 | YBBIKE",
+            "description": "스램 GX 이글 AXS MTB 뒷변속기입니다. 구매 전 이글 AXS 구동계와 카세트의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,EAGLE,AXS,뒷변속기,MTB변속기"
+          },
+          "historical_price": "690000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0031",
+      "name": "스램 SRAM 이글 트랜스미션 뒷변속기 풀리",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13639",
+          "name": "스램 SRAM 이글 트랜스미션 뒷변속기 풀리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 트랜스미션 뒷변속기 풀리 | YBBIKE",
+            "description": "스램 이글 트랜스미션 뒷변속기용 풀리입니다. 정비용 교체 부품으로, 구매 전 사용 중인 뒷변속기 모델과 풀리 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,이글,트랜스미션,뒷변속기풀리,디레일러풀리,변속기부품,MTB정비"
+          },
+          "historical_price": "113000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12026873413",
+          "name": "스램 SRAM 이글 트랜스미션 뒷변속기 풀리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 트랜스미션 뒷변속기 풀리 | YBBIKE",
+            "description": "스램 이글 트랜스미션 뒷변속기용 풀리입니다. 정비용 교체 부품으로, 구매 전 사용 중인 뒷변속기 모델과 풀리 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11971557203"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0032",
+      "name": "스램 SRAM AXS POD 무선 변속 컨트롤러",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13638",
+          "name": "스램 SRAM AXS POD 무선 변속 컨트롤러",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM AXS POD 무선 변속 컨트롤러 | YBBIKE",
+            "description": "스램 AXS POD 무선 변속 컨트롤러입니다. 구매 전 사용 중인 AXS 변속 시스템과 장착 구성품을 확인해 주세요.",
+            "keywords": "스램,SRAM,AXS,POD,팟컨트롤러,무선변속,변속컨트롤러,변속레버,MTB"
+          },
+          "historical_price": "230000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12026751740",
+          "name": "스램 SRAM AXS POD 무선 변속 컨트롤러",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM AXS POD 무선 변속 컨트롤러 | YBBIKE",
+            "description": "스램 AXS POD 무선 변속 컨트롤러입니다. 구매 전 사용 중인 AXS 변속 시스템과 장착 구성품을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11971436121"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0033",
+      "name": "스램 SRAM GX 이글 XS-1275 T-Type 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13637",
+          "name": "스램 SRAM GX 이글 XS-1275 T-Type 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 XS-1275 T-Type 카세트 스프라켓 | YBBIKE",
+            "description": "스램 GX 이글 XS-1275 T-Type 카세트 스프라켓입니다. 구매 전 트랜스미션 구동계와 카세트 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,XS1275,XS-1275,T-Type,트랜스미션,카세트,스프라켓"
+          },
+          "historical_price": "430000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0034",
+      "name": "스램 SRAM GX 이글 AXS 트랜스미션 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13636",
+          "name": "스램 SRAM GX 이글 AXS 트랜스미션 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 AXS 트랜스미션 뒷변속기 | YBBIKE",
+            "description": "스램 GX 이글 AXS 트랜스미션 뒷변속기입니다. 구매 전 프레임과 구동계의 트랜스미션 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,AXS,트랜스미션,뒷변속기,전동변속기,MTB변속기"
+          },
+          "historical_price": "700000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0035",
+      "name": "스램 SRAM AXS POD 로커 패들 오른쪽 변속 컨트롤러",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13633",
+          "name": "스램 SRAM AXS POD 로커 패들 오른쪽 변속 컨트롤러",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM AXS POD 로커 패들 오른쪽 변속 컨트롤러 | YBBIKE",
+            "description": "스램 AXS POD 로커 패들 오른쪽 변속 컨트롤러입니다. 구매 전 사용 중인 AXS 변속 시스템과 장착 방향 및 구성품을 확인해 주세요.",
+            "keywords": "스램,SRAM,AXS,POD,Rocker,로커패들,락커패들,오른쪽컨트롤러,변속레버"
+          },
+          "historical_price": "270000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12026363920",
+          "name": "스램 SRAM AXS POD 로커 패들 오른쪽 변속 컨트롤러",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM AXS POD 로커 패들 오른쪽 변속 컨트롤러 | YBBIKE",
+            "description": "스램 AXS POD 로커 패들 오른쪽 변속 컨트롤러입니다. 구매 전 사용 중인 AXS 변속 시스템과 장착 방향 및 구성품을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11971050567"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0036",
+      "name": "스램 SRAM AXS POD 얼티메이트 무선 변속 컨트롤러",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13632",
+          "name": "스램 SRAM AXS POD 얼티메이트 무선 변속 컨트롤러",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM AXS POD 얼티메이트 무선 변속 컨트롤러 | YBBIKE",
+            "description": "스램 AXS POD 얼티메이트 무선 변속 컨트롤러입니다. 구매 전 사용 중인 AXS 변속 시스템과 장착 구성품을 확인해 주세요.",
+            "keywords": "스램,SRAM,AXS,POD,Ultimate,얼티메이트,무선변속,변속컨트롤러,변속레버"
+          },
+          "historical_price": "360000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "12026327551",
+          "name": "스램 SRAM AXS POD 얼티메이트 무선 변속 컨트롤러",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM AXS POD 얼티메이트 무선 변속 컨트롤러 | YBBIKE",
+            "description": "스램 AXS POD 얼티메이트 무선 변속 컨트롤러입니다. 구매 전 사용 중인 AXS 변속 시스템과 장착 구성품을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11971014351"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0037",
+      "name": "스램 SRAM X01 이글 AXS 루나 MTB 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13553",
+          "name": "스램 SRAM X01 이글 AXS 루나 MTB 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM X01 이글 AXS 루나 MTB 뒷변속기 | YBBIKE",
+            "description": "스램 X01 이글 AXS 루나 뒷변속기입니다. 구매 전 이글 AXS 구동계와 카세트의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,X01,이글,AXS,루나,Lunar,뒷변속기,MTB변속기"
+          },
+          "historical_price": "950000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0038",
+      "name": "스램 SRAM XX1 이글 XG-1299 카세트 스프라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13552",
+          "name": "스램 SRAM XX1 이글 XG-1299 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX1 이글 XG-1299 카세트 스프라켓 | YBBIKE",
+            "description": "스램 XX1 이글 XG-1299 카세트 스프라켓입니다. 색상과 톱니 규격은 옵션에서 선택하며, 구동계와 프리허브 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX1,이글,Eagle,XG-1299,XG1299,MTB카세트,스프라켓"
+          },
+          "historical_price": "800000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "11153653639",
+          "name": "스램 SRAM XX1 이글 XG-1299 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX1 이글 XG-1299 카세트 스프라켓 | YBBIKE",
+            "description": "스램 XX1 이글 XG-1299 카세트 스프라켓입니다. 색상과 톱니 규격은 옵션에서 선택하며, 구동계와 프리허브 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11101104723"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0039",
+      "name": "스램 SRAM XX SL 이글 AXS 파워미터 리드 커버",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13551",
+          "name": "스램 SRAM XX SL 이글 AXS 파워미터 리드 커버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX SL 이글 AXS 파워미터 리드 커버 | YBBIKE",
+            "description": "스램 XX SL 이글 AXS 파워미터 리드 커버입니다. 교체용 커버 구매 전 사용 중인 파워미터 모델과 부품 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XXSL,이글,AXS,파워미터,리드커버,파워미터커버,교체부품"
+          },
+          "historical_price": "31000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0040",
+      "name": "스램 SRAM 이글 T-Type 파워락 체인커넥터 4개입",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13550",
+          "name": "스램 SRAM 이글 T-Type 파워락 체인커넥터 4개입",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 T-Type 파워락 체인커넥터 4개입 | YBBIKE",
+            "description": "스램 이글 T-Type 파워락 체인커넥터 4개입입니다. 체인 연결 전 사용 중인 체인이 T-Type 규격인지 확인해 주세요.",
+            "keywords": "스램,SRAM,이글,T-Type,파워락,PowerLock,체인커넥터,체인링크,퀵링크,4개입"
+          },
+          "historical_price": "33000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0041",
+      "name": "스램 SRAM GX 이글 트랜스미션 플랫탑 체인",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13549",
+          "name": "스램 SRAM GX 이글 트랜스미션 플랫탑 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 트랜스미션 플랫탑 체인 | YBBIKE",
+            "description": "스램 GX 이글 트랜스미션 플랫탑 체인입니다. 체인 교체 전 사용 중인 트랜스미션 구동계의 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,트랜스미션,플랫탑체인,MTB체인,자전거체인,체인교체"
+          },
+          "historical_price": "89000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "11152942807",
+          "name": "스램 SRAM GX 이글 트랜스미션 플랫탑 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 트랜스미션 플랫탑 체인 | YBBIKE",
+            "description": "스램 GX 이글 트랜스미션 플랫탑 체인입니다. 체인 교체 전 사용 중인 트랜스미션 구동계의 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11100395666"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0042",
+      "name": "스램 SRAM XX 이글 XS-1297 T-Type 카세트 스프라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13548",
+          "name": "스램 SRAM XX 이글 XS-1297 T-Type 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX 이글 XS-1297 T-Type 카세트 스프라켓 | YBBIKE",
+            "description": "스램 XX 이글 XS-1297 T-Type 카세트 스프라켓입니다. 구매 전 사용 중인 트랜스미션 구동계와 카세트 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX,이글,XS1297,XS-1297,T-Type,트랜스미션,카세트,스프라켓,MTB"
+          },
+          "historical_price": "960000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "11150276018",
+          "name": "스램 SRAM XX 이글 XS-1297 T-Type 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX 이글 XS-1297 T-Type 카세트 스프라켓 | YBBIKE",
+            "description": "스램 XX 이글 XS-1297 T-Type 카세트 스프라켓입니다. 구매 전 사용 중인 트랜스미션 구동계와 카세트 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11097736720"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0043",
+      "name": "스램 SRAM XX 이글 AXS 트랜스미션 뒷변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13547",
+          "name": "스램 SRAM XX 이글 AXS 트랜스미션 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX 이글 AXS 트랜스미션 뒷변속기 | YBBIKE",
+            "description": "스램 XX 이글 AXS 트랜스미션 뒷변속기입니다. 구매 전 프레임과 구동계의 트랜스미션 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX,이글,AXS,트랜스미션,뒷변속기,전동변속기,MTB변속기"
+          },
+          "historical_price": "1110000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "11150228235",
+          "name": "스램 SRAM XX 이글 AXS 트랜스미션 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX 이글 AXS 트랜스미션 뒷변속기 | YBBIKE",
+            "description": "스램 XX 이글 AXS 트랜스미션 뒷변속기입니다. 구매 전 프레임과 구동계의 트랜스미션 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11097689252"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0044",
+      "name": "스램 SRAM XX 이글 AXS 트랜스미션 파워미터 그룹셋",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13546",
+          "name": "스램 SRAM XX 이글 AXS 트랜스미션 파워미터 그룹셋",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX 이글 AXS 트랜스미션 파워미터 그룹셋 | YBBIKE",
+            "description": "스램 XX 이글 AXS 트랜스미션 파워미터 그룹셋입니다. 구매 전 구성품과 프레임 장착 규격, 크랭크 옵션을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX,이글,AXS,트랜스미션,파워미터,그룹셋,MTB구동계"
+          },
+          "historical_price": "3670000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "11150112399",
+          "name": "스램 SRAM XX 이글 AXS 트랜스미션 파워미터 그룹셋",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX 이글 AXS 트랜스미션 파워미터 그룹셋 | YBBIKE",
+            "description": "스램 XX 이글 AXS 트랜스미션 파워미터 그룹셋입니다. 구매 전 구성품과 프레임 장착 규격, 크랭크 옵션을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/11097574043"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0045",
+      "name": "스램 SRAM eTap AXS 4포트 배터리 충전기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13501",
+          "name": "스램 SRAM eTap AXS 4포트 배터리 충전기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM eTap AXS 4포트 배터리 충전기 | YBBIKE",
+            "description": "스램 eTap AXS 배터리용 4포트 충전기입니다. 여러 배터리를 관리할 때 사용하는 충전 제품으로, 지원 배터리와 구성품을 확인해 주세요.",
+            "keywords": "스램,SRAM,eTap,AXS,4포트충전기,이탭충전기,AXS배터리충전기,자전거충전기"
+          },
+          "historical_price": "220000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "10755442839",
+          "name": "스램 SRAM eTap AXS 4포트 배터리 충전기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM eTap AXS 4포트 배터리 충전기 | YBBIKE",
+            "description": "스램 eTap AXS 배터리용 4포트 충전기입니다. 여러 배터리를 관리할 때 사용하는 충전 제품으로, 지원 배터리와 구성품을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/10704261692"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0046",
+      "name": "스램 SRAM X0 이글 XS-1295 T-Type 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13367",
+          "name": "스램 SRAM X0 이글 XS-1295 T-Type 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM X0 이글 XS-1295 T-Type 카세트 스프라켓 | YBBIKE",
+            "description": "스램 X0 이글 XS-1295 T-Type 카세트 스프라켓입니다. 구매 전 트랜스미션 구동계와 카세트 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,X0,이글,XS1295,XS-1295,T-Type,트랜스미션,카세트,스프라켓"
+          },
+          "historical_price": "710000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0047",
+      "name": "스램 SRAM XX SL 이글 트랜스미션 12단 T-Type MTB 체인",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13317",
+          "name": "스램 SRAM XX SL 이글 트랜스미션 12단 T-Type MTB 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX SL 이글 트랜스미션 12단 T-Type MTB 체인 | YBBIKE",
+            "description": "스램 XX SL 이글 트랜스미션용 12단 T-Type MTB 체인. 산악자전거 구동계 교체 시 Eagle Transmission 호환 규격을 확인하세요.",
+            "keywords": "스램,SRAM,XXSL,이글트랜스미션,T-Type,12단체인,MTB체인,자전거체인,산악자전거체인"
+          },
+          "historical_price": "290000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13821064021",
+          "name": "스램 SRAM XX SL 이글 트랜스미션 12단 T-Type MTB 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX SL 이글 트랜스미션 12단 T-Type MTB 체인 | YBBIKE",
+            "description": "스램 XX SL 이글 트랜스미션용 12단 T-Type MTB 체인. 산악자전거 구동계 교체 시 Eagle Transmission 호환 규격을 확인하세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13759791403"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0048",
+      "name": "스램 SRAM XX SL 이글 트랜스미션 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13316",
+          "name": "스램 SRAM XX SL 이글 트랜스미션 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX SL 이글 트랜스미션 카세트 스프라켓 | YBBIKE",
+            "description": "스램 XX SL 이글 트랜스미션 카세트 스프라켓입니다. 구매 전 구동계와 카세트 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XXSL,이글,트랜스미션,카세트,스프라켓,MTB"
+          },
+          "historical_price": "1090000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0049",
+      "name": "스램 SRAM XX SL 이글 AXS 트랜스미션 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13315",
+          "name": "스램 SRAM XX SL 이글 AXS 트랜스미션 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX SL 이글 AXS 트랜스미션 뒷변속기 | YBBIKE",
+            "description": "스램 XX SL 이글 AXS 트랜스미션 뒷변속기입니다. 구매 전 프레임과 구동계의 트랜스미션 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XXSL,이글,AXS,트랜스미션,뒷변속기,전동변속기,MTB변속기"
+          },
+          "historical_price": "1190000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0050",
+      "name": "스램 SRAM POD AXS 컨트롤러 MMX 클램프 키트",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13309",
+          "name": "스램 SRAM POD AXS 컨트롤러 MMX 클램프 키트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM POD AXS 컨트롤러 MMX 클램프 키트 | YBBIKE",
+            "description": "스램 POD AXS 컨트롤러용 MMX 클램프 키트입니다. 구매 전 사용 중인 컨트롤러와 클램프 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,POD,AXS,MMX,클램프,컨트롤러클램프,클램프키트"
+          },
+          "historical_price": "25000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0051",
+      "name": "스램 SRAM POD AXS 컨트롤러 BRIDGE 클램프 키트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13308",
+          "name": "스램 SRAM POD AXS 컨트롤러 BRIDGE 클램프 키트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM POD AXS 컨트롤러 BRIDGE 클램프 키트 | YBBIKE",
+            "description": "스램 POD AXS 컨트롤러용 BRIDGE 클램프 키트입니다. 컨트롤러 장착 전 사용 중인 부품과 클램프 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,POD,AXS,BRIDGE,브리지클램프,컨트롤러클램프,클램프키트,MTB부품"
+          },
+          "historical_price": "100000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "9495000122",
+          "name": "스램 SRAM POD AXS 컨트롤러 BRIDGE 클램프 키트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM POD AXS 컨트롤러 BRIDGE 클램프 키트 | YBBIKE",
+            "description": "스램 POD AXS 컨트롤러용 BRIDGE 클램프 키트입니다. 컨트롤러 장착 전 사용 중인 부품과 클램프 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/9450302641"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0052",
+      "name": "스램 SRAM FORCE AXS 2x 포스 체인링 키트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13201",
+          "name": "스램 SRAM FORCE AXS 2x 포스 체인링 키트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE AXS 2x 포스 체인링 키트 | YBBIKE",
+            "description": "스램 FORCE AXS 2x 체인링 키트입니다. 톱니 조합은 옵션에서 선택하며, 사용 중인 크랭크와 구동계 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,FORCE,AXS,포스체인링,2x체인링,체인링키트,로드체인링"
+          },
+          "historical_price": "340000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "8521052612",
+          "name": "스램 SRAM FORCE AXS 2x 포스 체인링 키트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE AXS 2x 포스 체인링 키트 | YBBIKE",
+            "description": "스램 FORCE AXS 2x 체인링 키트입니다. 톱니 조합은 옵션에서 선택하며, 사용 중인 크랭크와 구동계 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/8480420790"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0053",
+      "name": "스램 SRAM 이글 AXS 로커패들 레버 커버",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13191",
+          "name": "스램 SRAM 이글 AXS 로커패들 레버 커버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 AXS 로커패들 레버 커버 | YBBIKE",
+            "description": "스램 이글 AXS Rocker Paddle 레버 커버입니다. 교체 전 사용 중인 이글 AXS 컨트롤러와 부품 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,이글,AXS,RockerPaddle,로커패들,레버커버,컨트롤러부품"
+          },
+          "historical_price": "29000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0054",
+      "name": "스램 SRAM GX 이글 XG-1275 52T 카세트 스프라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13190",
+          "name": "스램 SRAM GX 이글 XG-1275 52T 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 XG-1275 52T 카세트 스프라켓 | YBBIKE",
+            "description": "스램 GX 이글 XG-1275 52T 카세트 스프라켓입니다. 구매 전 뒷변속기의 최대 스프라켓 허용 범위와 허브 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,EAGLE,XG1275,XG-1275,52T,카세트,스프라켓,MTB"
+          },
+          "historical_price": "340000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "8459213425",
+          "name": "스램 SRAM GX 이글 XG-1275 52T 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 XG-1275 52T 카세트 스프라켓 | YBBIKE",
+            "description": "스램 GX 이글 XG-1275 52T 카세트 스프라켓입니다. 구매 전 뒷변속기의 최대 스프라켓 허용 범위와 허브 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/8418873109"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0055",
+      "name": "스램 SRAM GX 이글 DUB 루나 MTB 크랭크",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13189",
+          "name": "스램 SRAM GX 이글 DUB 루나 MTB 크랭크",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 DUB 루나 MTB 크랭크 | YBBIKE",
+            "description": "스램 GX 이글 DUB 루나 크랭크입니다. 구매 전 프레임과 버텀브라켓 규격을 확인한 뒤 크랭크 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,DUB,루나,Lunar,크랭크,MTB크랭크"
+          },
+          "historical_price": "249000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0056",
+      "name": "스램 SRAM XX1 이글 12단 뒷변속기 최대 52T",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13188",
+          "name": "스램 SRAM XX1 이글 12단 뒷변속기 최대 52T",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX1 이글 12단 뒷변속기 최대 52T | YBBIKE",
+            "description": "스램 XX1 이글 12단 뒷변속기입니다. 최대 52T 카세트 대응 모델로, 구매 전 사용 중인 구동계와 변속기 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX1,이글,EAGLE,12단,52T,뒷변속기,MTB변속기"
+          },
+          "historical_price": "585000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "8456758401",
+          "name": "스램 SRAM XX1 이글 12단 뒷변속기 최대 52T",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX1 이글 12단 뒷변속기 최대 52T | YBBIKE",
+            "description": "스램 XX1 이글 12단 뒷변속기입니다. 최대 52T 카세트 대응 모델로, 구매 전 사용 중인 구동계와 변속기 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/8416434054"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0057",
+      "name": "스램 SRAM X0 이글 트랜스미션 12단 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13187",
+          "name": "스램 SRAM X0 이글 트랜스미션 12단 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM X0 이글 트랜스미션 12단 자전거 체인 | YBBIKE",
+            "description": "스램 X0 이글 트랜스미션 12단 체인입니다. 교체 전 사용 중인 트랜스미션 구동계의 규격과 제품 구성을 확인해 주세요.",
+            "keywords": "스램,SRAM,X0,이글,트랜스미션,12단체인,MTB체인,자전거체인,체인교체"
+          },
+          "historical_price": "165000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0058",
+      "name": "스램 SRAM XX 이글 트랜스미션 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "13186",
+          "name": "스램 SRAM XX 이글 트랜스미션 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX 이글 트랜스미션 체인 | YBBIKE",
+            "description": "스램 XX 이글 트랜스미션 체인입니다. 체인 교체 전 사용 중인 트랜스미션 구동계의 규격과 제품 구성을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX,이글,트랜스미션,체인,MTB체인,자전거체인,체인교체"
+          },
+          "historical_price": "230000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0059",
+      "name": "스램 SRAM 트리거 변속 레버 클램프",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "12779",
+          "name": "스램 SRAM 트리거 변속 레버 클램프",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 트리거 변속 레버 클램프 | YBBIKE",
+            "description": "스램 트리거 변속 레버 장착용 클램프입니다. 구매 전 사용 중인 레버와 핸들바의 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,트리거,변속레버,쉬프터클램프,레버클램프,MTB부품"
+          },
+          "historical_price": "29000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "6949995819",
+          "name": "스램 SRAM 트리거 변속 레버 클램프",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 트리거 변속 레버 클램프 | YBBIKE",
+            "description": "스램 트리거 변속 레버 장착용 클램프입니다. 구매 전 사용 중인 레버와 핸들바의 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/6916923624"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0060",
+      "name": "스램 SRAM RIVAL XG-1250 D1 라이벌 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "12691",
+          "name": "스램 SRAM RIVAL XG-1250 D1 라이벌 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RIVAL XG-1250 D1 라이벌 카세트 스프라켓 | YBBIKE",
+            "description": "스램 RIVAL XG-1250 D1 카세트 스프라켓입니다. 톱니 규격은 옵션에서 선택하며, 구매 전 구동계와 프리허브 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RIVAL,XG-1250,XG1250,D1,라이벌카세트,로드카세트,카세트스프라켓"
+          },
+          "historical_price": "228000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0061",
+      "name": "스램 SRAM UDH 유니버설 뒷변속기 행어",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "12275",
+          "name": "스램 SRAM UDH 유니버설 뒷변속기 행어",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM UDH 유니버설 뒷변속기 행어 | YBBIKE",
+            "description": "스램 UDH 유니버설 뒷변속기 행어입니다. 구매 전 자전거 프레임의 UDH 적용 여부와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,UDH,행어,행거,변속기행어,뒷변속기행어,자전거부품"
+          },
+          "historical_price": "21000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "6000615085",
+          "name": "스램 SRAM UDH 유니버설 뒷변속기 행어",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM UDH 유니버설 뒷변속기 행어 | YBBIKE",
+            "description": "스램 UDH 유니버설 뒷변속기 행어입니다. 구매 전 자전거 프레임의 UDH 적용 여부와 장착 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/5972554040"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0062",
+      "name": "스램 SRAM DUB 이탈리안 70mm 로드 버텀브라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "12108",
+          "name": "스램 SRAM DUB 이탈리안 70mm 로드 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB 이탈리안 70mm 로드 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB 이탈리안 70mm 로드 버텀브라켓입니다. 프레임의 이탈리안 BB 셸 및 크랭크 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,DUB,이탈리안BB,70mm,로드비비,버텀브라켓,바텀브라켓"
+          },
+          "historical_price": "60000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0063",
+      "name": "스램 SRAM 디센던트 자전거 핸들 그립",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "11895",
+          "name": "스램 SRAM 디센던트 자전거 핸들 그립",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 디센던트 자전거 핸들 그립 | YBBIKE",
+            "description": "스램 디센던트 자전거 핸들 그립입니다. 교체용 그립의 색상과 장착 규격을 확인한 뒤 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,디센던트,DESCENDANT,핸들그립,자전거그립,MTB그립,그립교체"
+          },
+          "historical_price": "43000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "5565984241",
+          "name": "스램 SRAM 디센던트 자전거 핸들 그립",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 디센던트 자전거 핸들 그립 | YBBIKE",
+            "description": "스램 디센던트 자전거 핸들 그립입니다. 교체용 그립의 색상과 장착 규격을 확인한 뒤 옵션을 선택해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/5542145197"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0064",
+      "name": "스램 SRAM 이글 AXS 뒷변속기용 배터리 커버",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "11846",
+          "name": "스램 SRAM 이글 AXS 뒷변속기용 배터리 커버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 AXS 뒷변속기용 배터리 커버 | YBBIKE",
+            "description": "스램 이글 AXS 뒷변속기용 배터리 커버입니다. 교체용 커버 구매 전 사용 중인 뒷변속기 모델과 부품 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,이글,AXS,배터리커버,뒷변속기커버,자전거부품"
+          },
+          "historical_price": "29000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0065",
+      "name": "스램 SRAM RED FORCE AXS 체인링 볼트 4개입",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "11789",
+          "name": "스램 SRAM RED FORCE AXS 체인링 볼트 4개입",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED FORCE AXS 체인링 볼트 4개입 | YBBIKE",
+            "description": "스램 RED/FORCE AXS 체인링 볼트 4개입입니다. 체인링 구성에 맞는 옵션을 선택하고 커버 포함 여부를 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,FORCE,AXS,체인링볼트,크랭크볼트,레드볼트,포스볼트"
+          },
+          "historical_price": "30000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0066",
+      "name": "스램 SRAM 페이스라인 센터락 로드 디스크 브레이크 로터",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "11382",
+          "name": "스램 SRAM 페이스라인 센터락 로드 디스크 브레이크 로터",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 페이스라인 센터락 로드 디스크 브레이크 로터 | YBBIKE",
+            "description": "스램 Paceline 페이스라인 센터락 로터입니다. 140mm·160mm 규격과 락링 포함 구성으로, 휠 허브 및 브레이크 장착 규격에 맞춰 선택해 주세요.",
+            "keywords": "스램,SRAM,페이스라인,Paceline,센터락로터,로드로터,디스크로터,브레이크로터,140mm로터,160mm로터"
+          },
+          "historical_price": "77000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0067",
+      "name": "스램 SRAM SX 이글 12단 MTB 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "10658",
+          "name": "스램 SRAM SX 이글 12단 MTB 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM SX 이글 12단 MTB 뒷변속기 | YBBIKE",
+            "description": "스램 SX 이글 12단 MTB 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 카세트의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,SX,이글,EAGLE,12단,뒷변속기,MTB변속기"
+          },
+          "historical_price": "140000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0068",
+      "name": "스램 SRAM PC-1 싱글스피드 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "9759",
+          "name": "스램 SRAM PC-1 싱글스피드 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-1 싱글스피드 자전거 체인 | YBBIKE",
+            "description": "스램 PC-1 싱글스피드 자전거 체인입니다. 싱글 구동계 체인 교체 시 체인 폭과 사용 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-1,PC1,싱글스피드체인,싱글체인,자전거체인,체인교체"
+          },
+          "historical_price": "19000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0069",
+      "name": "스램 SRAM SX 이글 12단 트리거 쉬프터 변속레버",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "9586",
+          "name": "스램 SRAM SX 이글 12단 트리거 쉬프터 변속레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM SX 이글 12단 트리거 쉬프터 변속레버 | YBBIKE",
+            "description": "스램 SX 이글 12단 트리거 쉬프터입니다. 변속레버 교체 전 사용 중인 뒷변속기와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,SX,이글,EAGLE,12단,트리거,쉬프터,변속레버"
+          },
+          "historical_price": "58000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0070",
+      "name": "스램 SRAM PC-1091R 10단 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "9510",
+          "name": "스램 SRAM PC-1091R 10단 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-1091R 10단 자전거 체인 | YBBIKE",
+            "description": "스램 PC-1091R 10단 114링크 체인. 파워락 포함 구성으로 자전거 체인 교체 시 단수와 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-1091R,PC1091R,스램체인,10단체인,자전거체인,114링크,파워락,체인교체"
+          },
+          "historical_price": "95000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0071",
+      "name": "스램 SRAM PF30 BSA 68 73mm 버텀브라켓 변환 어댑터",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8916",
+          "name": "스램 SRAM PF30 BSA 68 73mm 버텀브라켓 변환 어댑터",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PF30 BSA 68 73mm 버텀브라켓 변환 어댑터 | YBBIKE",
+            "description": "스램 PF30-BSA 68/73mm 버텀브라켓 변환 어댑터입니다. 장착 전 프레임과 비비의 규격 및 변환 방향을 확인해 주세요.",
+            "keywords": "스램,SRAM,PF30,BSA,68mm,73mm,비비어댑터,BB변환,버텀브라켓어댑터"
+          },
+          "historical_price": "57000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0072",
+      "name": "스램 SRAM BB30 BSA 83mm 버텀브라켓 변환 어댑터",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8915",
+          "name": "스램 SRAM BB30 BSA 83mm 버텀브라켓 변환 어댑터",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM BB30 BSA 83mm 버텀브라켓 변환 어댑터 | YBBIKE",
+            "description": "스램 BB30-BSA 83mm 버텀브라켓 변환 어댑터입니다. 장착 전 프레임과 비비의 규격 및 변환 방향을 확인해 주세요.",
+            "keywords": "스램,SRAM,BB30,BSA,83mm,비비어댑터,BB변환,버텀브라켓어댑터"
+          },
+          "historical_price": "30000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0073",
+      "name": "스램 SRAM GXP TEAM 83mm 버텀브라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8912",
+          "name": "스램 SRAM GXP TEAM 83mm 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GXP TEAM 83mm 버텀브라켓 | YBBIKE",
+            "description": "스램 GXP TEAM 83mm 버텀브라켓입니다. 교체 전 프레임의 BB 셸 폭과 GXP 크랭크 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GXP,TEAM,83mm,팀비비,버텀브라켓,바텀브라켓,자전거비비"
+          },
+          "historical_price": "60000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0074",
+      "name": "스램 SRAM DUB 프레스핏 MTB 89.5 92mm 버텀브라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8911",
+          "name": "스램 SRAM DUB 프레스핏 MTB 89.5 92mm 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB 프레스핏 MTB 89.5 92mm 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB 프레스핏 MTB 89.5/92mm 버텀브라켓입니다. 프레임의 BB 셸 폭과 크랭크 축 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,DUB,프레스핏,BB92,89.5mm,92mm,MTB비비,버텀브라켓,바텀브라켓"
+          },
+          "historical_price": "69000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0075",
+      "name": "스램 SRAM DUB PF30 68 73mm 버텀브라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8908",
+          "name": "스램 SRAM DUB PF30 68 73mm 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB PF30 68 73mm 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB PF30 68/73mm 버텀브라켓입니다. 프레임의 PF30 BB 셸과 DUB 크랭크 규격을 확인한 뒤 선택해 주세요.",
+            "keywords": "스램,SRAM,DUB,PF30,68mm,73mm,프레스핏,버텀브라켓,바텀브라켓,DUB비비"
+          },
+          "historical_price": "69000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589919992",
+          "name": "스램 SRAM DUB PF30 68 73mm 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB PF30 68 73mm 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB PF30 68/73mm 버텀브라켓입니다. 프레임의 PF30 BB 셸과 DUB 크랭크 규격을 확인한 뒤 선택해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579703101"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0076",
+      "name": "스램 SRAM DUB BB30 68 73mm 버텀브라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8906",
+          "name": "스램 SRAM DUB BB30 68 73mm 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB BB30 68 73mm 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB BB30 68/73mm 버텀브라켓입니다. 프레임의 BB30 셸과 DUB 크랭크 규격을 확인한 뒤 선택해 주세요.",
+            "keywords": "스램,SRAM,DUB,BB30,68mm,73mm,버텀브라켓,바텀브라켓,DUB비비"
+          },
+          "historical_price": "60000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589907213",
+          "name": "스램 SRAM DUB BB30 68 73mm 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB BB30 68 73mm 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB BB30 68/73mm 버텀브라켓입니다. 프레임의 BB30 셸과 DUB 크랭크 규격을 확인한 뒤 선택해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579690426"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0077",
+      "name": "스램 SRAM DUB BB30 ROAD 73-A 로드 버텀브라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8905",
+          "name": "스램 SRAM DUB BB30 ROAD 73-A 로드 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB BB30 ROAD 73-A 로드 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB BB30 ROAD 73-A 버텀브라켓입니다. 구매 전 프레임의 BB 셸과 크랭크 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,DUB,BB30,ROAD,73-A,로드비비,버텀브라켓,바텀브라켓"
+          },
+          "historical_price": "81000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0078",
+      "name": "스램 SRAM DUB BSA 68 73mm 버텀브라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8904",
+          "name": "스램 SRAM DUB BSA 68 73mm 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM DUB BSA 68 73mm 버텀브라켓 | YBBIKE",
+            "description": "스램 DUB BSA 68/73mm 버텀브라켓입니다. 프레임의 나사산 BB 셸과 크랭크 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,DUB,BSA,68mm,73mm,버텀브라켓,바텀브라켓,DUB비비"
+          },
+          "historical_price": "60000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0079",
+      "name": "스램 SRAM RED E1 2x 레드 로드 체인링",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8900",
+          "name": "스램 SRAM RED E1 2x 레드 로드 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED E1 2x 레드 로드 체인링 | YBBIKE",
+            "description": "스램 RED E1 2x 로드 체인링입니다. 톱니 조합은 옵션에서 선택하며, 사용 중인 크랭크와 구동계 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,E1,2x,레드체인링,로드체인링,크랭크체인링"
+          },
+          "historical_price": "519000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0080",
+      "name": "스램 SRAM RED D1 레드 로드 크랭크세트",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8891",
+          "name": "스램 SRAM RED D1 레드 로드 크랭크세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED D1 레드 로드 크랭크세트 | YBBIKE",
+            "description": "스램 RED D1 로드 크랭크세트입니다. 크랭크 길이와 톱니 조합은 옵션에서 선택하며, 프레임과 버텀브라켓 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,D1,레드크랭크,로드크랭크,크랭크세트,자전거크랭크"
+          },
+          "historical_price": "1180000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589890828",
+          "name": "스램 SRAM RED D1 레드 로드 크랭크세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED D1 레드 로드 크랭크세트 | YBBIKE",
+            "description": "스램 RED D1 로드 크랭크세트입니다. 크랭크 길이와 톱니 조합은 옵션에서 선택하며, 프레임과 버텀브라켓 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579674310"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0081",
+      "name": "스램 SRAM 센터라인 XR 2피스 센터락 디스크 브레이크 로터",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8888",
+          "name": "스램 SRAM 센터라인 XR 2피스 센터락 디스크 브레이크 로터",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 센터라인 XR 2피스 센터락 디스크 브레이크 로터 | YBBIKE",
+            "description": "스램 SRAM CenterLine XR 2피스 센터락 디스크 브레이크 로터. 140mm·160mm 규격과 센터락 장착 방식을 확인하고 YBBIKE에서 구매하세요.",
+            "keywords": "스램,SRAM,센터라인,센터라인XR,CenterLine XR,CNTRLN XR,디스크로터,브레이크로터,센터락로터,2피스로터,로드자전거부품"
+          },
+          "historical_price": "75000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589887413",
+          "name": "스램 SRAM 센터라인 XR 2피스 센터락 디스크 브레이크 로터",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 센터라인 XR 2피스 센터락 디스크 브레이크 로터 | YBBIKE",
+            "description": "스램 SRAM CenterLine XR 2피스 센터락 디스크 브레이크 로터. 140mm·160mm 규격과 센터락 장착 방식을 확인하세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579670943"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0082",
+      "name": "스램 SRAM APEX 1 HRD 왼쪽 유압 브레이크 레버",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8884",
+          "name": "스램 SRAM APEX 1 HRD 왼쪽 유압 브레이크 레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM APEX 1 HRD 왼쪽 유압 브레이크 레버 | YBBIKE",
+            "description": "스램 SRAM APEX 1 HRD 왼쪽 유압 브레이크 레버. 1X11 왼쪽 옵션과 제품 규격을 확인하고 YBBIKE에서 구매하세요.",
+            "keywords": "스램,SRAM,APEX,APEX 1,에이펙스,아펙스,HRD,브레이크레버,유압브레이크레버,왼쪽브레이크레버,로드자전거부품"
+          },
+          "historical_price": "250000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "13808027120",
+          "name": "스램 SRAM APEX 1 HRD 왼쪽 유압 브레이크 레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM APEX 1 HRD 왼쪽 유압 브레이크 레버 | YBBIKE",
+            "description": "스램 SRAM APEX 1 HRD 왼쪽 유압 브레이크 레버. 로드 자전거용 1X11 왼쪽 레버의 규격과 구성품을 확인하세요. YBBIKE 매장 재고 보유.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13746833768"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0083",
+      "name": "스램 SRAM FORCE XG-1270 E1 포스 카세트 스프라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8876",
+          "name": "스램 SRAM FORCE XG-1270 E1 포스 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE XG-1270 E1 포스 카세트 스프라켓 | YBBIKE",
+            "description": "스램 FORCE XG-1270 E1 카세트 스프라켓입니다. 톱니 규격은 옵션에서 선택하며, 구매 전 구동계와 프리허브 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,FORCE,XG-1270,XG1270,E1,포스카세트,카세트스프라켓,로드스프라켓"
+          },
+          "historical_price": "335000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "8528984836",
+          "name": "스램 SRAM FORCE XG-1270 E1 포스 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE XG-1270 E1 포스 카세트 스프라켓 | YBBIKE",
+            "description": "스램 FORCE XG-1270 E1 카세트 스프라켓입니다. 톱니 규격은 옵션에서 선택하며, 구매 전 구동계와 프리허브 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/8488309258"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0084",
+      "name": "스램 SRAM NX 이글 12단 트리거 쉬프터 변속레버 블랙",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8296",
+          "name": "스램 SRAM NX 이글 12단 트리거 쉬프터 변속레버 블랙",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM NX 이글 12단 트리거 쉬프터 변속레버 블랙 | YBBIKE",
+            "description": "스램 NX 이글 12단 트리거 쉬프터 블랙입니다. 변속레버 교체 전 사용 중인 뒷변속기와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,NX,이글,EAGLE,12단,트리거,쉬프터,변속레버"
+          },
+          "historical_price": "72000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0085",
+      "name": "스램 SRAM NX 이글 12단 자전거 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "8027",
+          "name": "스램 SRAM NX 이글 12단 자전거 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM NX 이글 12단 자전거 뒷변속기 | YBBIKE",
+            "description": "스램 NX 이글 12단 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 카세트의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,NX,이글,EAGLE,12단,뒷변속기,MTB변속기"
+          },
+          "historical_price": "180000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0086",
+      "name": "스램 SRAM PC-NX 이글 MTB 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "7836",
+          "name": "스램 SRAM PC-NX 이글 MTB 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-NX 이글 MTB 자전거 체인 | YBBIKE",
+            "description": "스램 PC-NX 이글 MTB 체인입니다. 체인 교체 전 사용 중인 이글 구동계의 규격과 제품 구성을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-NX,PCNX,NX,이글,EAGLE,MTB체인,자전거체인,체인교체"
+          },
+          "historical_price": "46000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0087",
+      "name": "스램 SRAM NX 이글 ST MTB 체인링",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "7835",
+          "name": "스램 SRAM NX 이글 ST MTB 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM NX 이글 ST MTB 체인링 | YBBIKE",
+            "description": "스램 NX 이글 ST 체인링입니다. 구매 전 크랭크 장착 방식과 체인링 규격을 확인한 뒤 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,NX,이글,EAGLE,ST,체인링,MTB체인링,자전거체인링"
+          },
+          "historical_price": "27000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0088",
+      "name": "스램 SRAM 락킹 컨투어 폼 그립 자전거 핸들그립",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "7831",
+          "name": "스램 SRAM 락킹 컨투어 폼 그립 자전거 핸들그립",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 락킹 컨투어 폼 그립 자전거 핸들그립 | YBBIKE",
+            "description": "스램 락킹 컨투어 폼 그립입니다. 자전거 핸들 그립 교체 전 장착 규격과 제품 구성을 확인해 주세요.",
+            "keywords": "스램,SRAM,락킹컨투어,폼그립,핸들그립,자전거그립,MTB그립"
+          },
+          "historical_price": "29000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589827191",
+          "name": "스램 SRAM 락킹 컨투어 폼 그립 자전거 핸들그립",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 락킹 컨투어 폼 그립 자전거 핸들그립 | YBBIKE",
+            "description": "스램 락킹 컨투어 폼 그립입니다. 자전거 핸들 그립 교체 전 장착 규격과 제품 구성을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579611766"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0089",
+      "name": "스램 SRAM 이글 94·104BCD MTB 체인링",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "7516",
+          "name": "스램 SRAM 이글 94·104BCD MTB 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 94·104BCD MTB 체인링 | YBBIKE",
+            "description": "스램 이글 94·104BCD 체인링입니다. 크랭크의 BCD 규격을 확인한 뒤 장착 규격과 기어 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,이글,EAGLE,94BCD,104BCD,체인링,MTB체인링"
+          },
+          "historical_price": "112000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0090",
+      "name": "스램 SRAM GX DH PG-720 미니블록 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "6866",
+          "name": "스램 SRAM GX DH PG-720 미니블록 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX DH PG-720 미니블록 카세트 스프라켓 | YBBIKE",
+            "description": "스램 GX DH PG-720 MINI BLOCK 카세트 스프라켓입니다. 구매 전 구동계와 허브 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,DH,PG720,PG-720,MINIBLOCK,미니블록,카세트,스프라켓"
+          },
+          "historical_price": "50000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0091",
+      "name": "스램 SRAM GX 이글 XG-1275 카세트 스프라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "6864",
+          "name": "스램 SRAM GX 이글 XG-1275 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 XG-1275 카세트 스프라켓 | YBBIKE",
+            "description": "스램 GX 이글 XG-1275 카세트 스프라켓입니다. 사용 중인 뒷변속기와 허브 규격을 확인한 뒤 기어 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,EAGLE,XG1275,XG-1275,카세트,스프라켓,MTB"
+          },
+          "historical_price": "340000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589823450",
+          "name": "스램 SRAM GX 이글 XG-1275 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 XG-1275 카세트 스프라켓 | YBBIKE",
+            "description": "스램 GX 이글 XG-1275 카세트 스프라켓입니다. 사용 중인 뒷변속기와 허브 규격을 확인한 뒤 기어 옵션을 선택해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579608109"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0092",
+      "name": "스램 SRAM GX DH 7단 X-ACTUATION 트리거 쉬프터 블랙",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "6859",
+          "name": "스램 SRAM GX DH 7단 X-ACTUATION 트리거 쉬프터 블랙",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX DH 7단 X-ACTUATION 트리거 쉬프터 블랙 | YBBIKE",
+            "description": "스램 GX DH 7단 X-ACTUATION 트리거 쉬프터 블랙입니다. 변속레버 교체 전 사용 중인 뒷변속기와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,DH,7단,X-ACTUATION,트리거,쉬프터,변속레버,다운힐"
+          },
+          "historical_price": "81000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0093",
+      "name": "스램 SRAM GX DH 7단 A3 자전거 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "6831",
+          "name": "스램 SRAM GX DH 7단 A3 자전거 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX DH 7단 A3 자전거 뒷변속기 | YBBIKE",
+            "description": "스램 GX DH 7단 A3 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 다운힐 구동계의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,DH,7단,A3,뒷변속기,다운힐변속기,MTB변속기"
+          },
+          "historical_price": "196000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0094",
+      "name": "스램 SRAM GX 이글 CF MTB 체인링",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "6319",
+          "name": "스램 SRAM GX 이글 CF MTB 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 CF MTB 체인링 | YBBIKE",
+            "description": "스램 GX 이글 CF 체인링입니다. 구매 전 크랭크 장착 방식과 체인링 규격을 확인한 뒤 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,EAGLE,CF,체인링,MTB체인링,자전거체인링"
+          },
+          "historical_price": "63000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0095",
+      "name": "스램 SRAM GX XG-1175 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "6316",
+          "name": "스램 SRAM GX XG-1175 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX XG-1175 카세트 스프라켓 | YBBIKE",
+            "description": "스램 GX XG-1175 카세트 스프라켓입니다. 구매 전 사용 중인 구동계와 허브 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,XG1175,XG-1175,카세트,스프라켓,MTB,자전거부품"
+          },
+          "historical_price": "330000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0096",
+      "name": "스램 SRAM GX 이글 12단 트리거 쉬프터 변속레버",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "5857",
+          "name": "스램 SRAM GX 이글 12단 트리거 쉬프터 변속레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GX 이글 12단 트리거 쉬프터 변속레버 | YBBIKE",
+            "description": "스램 GX 이글 12단 트리거 쉬프터입니다. 변속레버 교체 전 사용 중인 뒷변속기와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GX,이글,EAGLE,12단,트리거,쉬프터,변속레버"
+          },
+          "historical_price": "78000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0097",
+      "name": "스램 SRAM 파워락 11단 체인 퀵링크 4개입",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4951",
+          "name": "스램 SRAM 파워락 11단 체인 퀵링크 4개입",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 파워락 11단 체인 퀵링크 4개입 | YBBIKE",
+            "description": "스램 PowerLock 11단 체인 연결용 퀵링크 4개입입니다. 사용 중인 체인의 단수와 연결 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PowerLock,파워락,11단퀵링크,체인링크,체인커넥터,체인연결핀"
+          },
+          "historical_price": "24000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0098",
+      "name": "스램 SRAM PC-RED22 11단 로드 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4949",
+          "name": "스램 SRAM PC-RED22 11단 로드 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-RED22 11단 로드 자전거 체인 | YBBIKE",
+            "description": "스램 PC-RED22 11단 로드 자전거 체인입니다. 체인 교체와 구동계 정비 시 사용 중인 체인의 단수 및 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-RED22,RED22,레드22,11단체인,로드체인,자전거체인,체인교체"
+          },
+          "historical_price": "81000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0099",
+      "name": "스램 SRAM XX1 X01 이글 크랭크암 가드",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4219",
+          "name": "스램 SRAM XX1 X01 이글 크랭크암 가드",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX1 X01 이글 크랭크암 가드 | YBBIKE",
+            "description": "스램 XX1·X01 이글 크랭크암 가드입니다. 구매 전 사용 중인 크랭크암 모델과 가드 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX1,X01,이글,크랭크암가드,크랭크보호대,MTB부품"
+          },
+          "historical_price": "16000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0100",
+      "name": "스램 SRAM 파워락 10단 체인 퀵링크 4개입",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4210",
+          "name": "스램 SRAM 파워락 10단 체인 퀵링크 4개입",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 파워락 10단 체인 퀵링크 4개입 | YBBIKE",
+            "description": "스램 PowerLock 10단 체인 연결용 퀵링크 4개입입니다. 사용 중인 체인의 단수와 연결 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PowerLock,파워락,10단퀵링크,체인링크,체인커넥터,체인연결핀"
+          },
+          "historical_price": "24000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589787185",
+          "name": "스램 SRAM 파워락 10단 체인 퀵링크 4개입",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 파워락 10단 체인 퀵링크 4개입 | YBBIKE",
+            "description": "스램 PowerLock 10단 체인 연결용 퀵링크 4개입입니다. 사용 중인 체인의 단수와 연결 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579572379"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0101",
+      "name": "스램 SRAM PC-830 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4099",
+          "name": "스램 SRAM PC-830 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-830 자전거 체인 | YBBIKE",
+            "description": "스램 PC-830 자전거 체인입니다. 구동계 정비와 체인 교체를 위한 제품으로, 구매 전 단수와 체인 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-830,PC830,스램체인,자전거체인,체인교체,구동계정비"
+          },
+          "historical_price": "16000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0102",
+      "name": "스램 SRAM X3 7·8단 자전거 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4096",
+          "name": "스램 SRAM X3 7·8단 자전거 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM X3 7·8단 자전거 뒷변속기 | YBBIKE",
+            "description": "스램 X3 7·8단 자전거 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 구동계의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,X3,7단,8단,뒷변속기,자전거변속기,MTB변속기"
+          },
+          "historical_price": "39000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0103",
+      "name": "스램 SRAM X4 8·9단 자전거 뒷변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4094",
+          "name": "스램 SRAM X4 8·9단 자전거 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM X4 8·9단 자전거 뒷변속기 | YBBIKE",
+            "description": "스램 X4 8·9단 자전거 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 구동계의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,X4,8단,9단,뒷변속기,자전거변속기,MTB변속기"
+          },
+          "historical_price": "49000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4731826245",
+          "name": "스램 SRAM X4 8·9단 자전거 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM X4 8·9단 자전거 뒷변속기 | YBBIKE",
+            "description": "스램 X4 8·9단 자전거 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 구동계의 호환 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4719408500"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0104",
+      "name": "스램 SRAM PC-951 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4092",
+          "name": "스램 SRAM PC-951 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-951 자전거 체인 | YBBIKE",
+            "description": "스램 PC-951 자전거 체인입니다. 체인 교체 전 사용 중인 구동계와 제품 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-951,PC951,스램체인,자전거체인,체인교체"
+          },
+          "historical_price": "29000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0105",
+      "name": "스램 SRAM PC-1031 10단 자전거 체인",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4057",
+          "name": "스램 SRAM PC-1031 10단 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-1031 10단 자전거 체인 | YBBIKE",
+            "description": "스램 PC-1031 10단 114링크 자전거 체인입니다. 파워락 포함 구성으로, 교체 전 사용 중인 구동계의 단수와 체인 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-1031,PC1031,스램체인,10단체인,자전거체인,114링크,파워락,체인교체"
+          },
+          "historical_price": "39000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589744852",
+          "name": "스램 SRAM PC-1031 10단 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-1031 10단 자전거 체인 | YBBIKE",
+            "description": "스램 PC-1031 10단 114링크 자전거 체인입니다. 파워락 포함 구성으로, 교체 전 사용 중인 구동계의 단수와 체인 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579530654"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0106",
+      "name": "스램 SRAM PG-1050 10단 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4055",
+          "name": "스램 SRAM PG-1050 10단 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PG-1050 10단 카세트 스프라켓 | YBBIKE",
+            "description": "스램 PG-1050 10단 카세트 스프라켓입니다. 구매 전 구동계와 허브 규격을 확인한 뒤 기어 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,PG1050,PG-1050,10단,카세트,스프라켓,자전거부품"
+          },
+          "historical_price": "120000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0107",
+      "name": "스램 SRAM NX 11단 자전거 뒷변속기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4043",
+          "name": "스램 SRAM NX 11단 자전거 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM NX 11단 자전거 뒷변속기 | YBBIKE",
+            "description": "스램 NX 11단 자전거 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 구동계의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,NX,11단,뒷변속기,자전거변속기,MTB변속기"
+          },
+          "historical_price": "139000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589739727",
+          "name": "스램 SRAM NX 11단 자전거 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM NX 11단 자전거 뒷변속기 | YBBIKE",
+            "description": "스램 NX 11단 자전거 뒷변속기입니다. 교체 전 사용 중인 쉬프터와 구동계의 호환 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579525601"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0108",
+      "name": "스램 SRAM NX 11단 트리거 쉬프터 변속레버 블랙",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4041",
+          "name": "스램 SRAM NX 11단 트리거 쉬프터 변속레버 블랙",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM NX 11단 트리거 쉬프터 변속레버 블랙 | YBBIKE",
+            "description": "스램 NX 11단 트리거 쉬프터 블랙입니다. 변속레버 교체 전 사용 중인 뒷변속기와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,NX,11단,트리거,쉬프터,변속레버,블랙,MTB"
+          },
+          "historical_price": "50000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0109",
+      "name": "스램 SRAM PC-X1 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4029",
+          "name": "스램 SRAM PC-X1 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-X1 자전거 체인 | YBBIKE",
+            "description": "스램 PC-X1 자전거 체인입니다. 교체 전 사용 중인 구동계의 체인 규격과 제품 구성을 확인해 주세요.",
+            "keywords": "스램,SRAM,PC-X1,PCX1,X1,자전거체인,MTB체인,체인교체"
+          },
+          "historical_price": "55000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0110",
+      "name": "스램 SRAM 이글 EAGLE 12단 MTB 체인링",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4006",
+          "name": "스램 SRAM 이글 EAGLE 12단 MTB 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 EAGLE 12단 MTB 체인링 | YBBIKE",
+            "description": "스램 이글 EAGLE 12단 MTB 체인링입니다. 구매 전 크랭크 장착 방식과 체인링 규격을 확인한 뒤 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,이글,EAGLE,12단,체인링,MTB체인링,자전거체인링"
+          },
+          "historical_price": "160000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589714808",
+          "name": "스램 SRAM 이글 EAGLE 12단 MTB 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 이글 EAGLE 12단 MTB 체인링 | YBBIKE",
+            "description": "스램 이글 EAGLE 12단 MTB 체인링입니다. 구매 전 크랭크 장착 방식과 체인링 규격을 확인한 뒤 옵션을 선택해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579500902"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0111",
+      "name": "스램 SRAM XX1 이글 루나 12단 트리거 쉬프터 변속레버",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4002",
+          "name": "스램 SRAM XX1 이글 루나 12단 트리거 쉬프터 변속레버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM XX1 이글 루나 12단 트리거 쉬프터 변속레버 | YBBIKE",
+            "description": "스램 XX1 이글 루나 12단 트리거 쉬프터입니다. 변속레버 교체 전 사용 중인 뒷변속기와 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,XX1,이글,루나,Lunar,12단,트리거,쉬프터,변속레버"
+          },
+          "historical_price": "328000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0112",
+      "name": "스램 SRAM 센터라인 2피스 디스크 브레이크 로터 6볼트 센터락",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "4001",
+          "name": "스램 SRAM 센터라인 2피스 디스크 브레이크 로터 6볼트 센터락",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 센터라인 2피스 디스크 브레이크 로터 6볼트 센터락 | YBBIKE",
+            "description": "스램 센터라인 2피스 디스크 브레이크 로터입니다. 6볼트와 센터락 장착 방식 및 로터 직경을 확인한 뒤 옵션을 선택해 주세요.",
+            "keywords": "스램,SRAM,센터라인,센터라인2피스,CenterLine,디스크로터,브레이크로터,6볼트로터,센터락로터"
+          },
+          "historical_price": "100000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4980333870",
+          "name": "스램 SRAM 센터라인 2피스 디스크 브레이크 로터 6볼트 센터락",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "save_success_visible",
+            "date": "2026-11-10",
+            "title": null,
+            "description": null,
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4963464732"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0114",
+      "name": "스램 SRAM FR-5 V브레이크 레버 앞뒤 세트 실버",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3995",
+          "name": "스램 SRAM FR-5 V브레이크 레버 앞뒤 세트 실버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FR-5 V브레이크 레버 앞뒤 세트 실버 | YBBIKE",
+            "description": "스램 FR-5 V브레이크용 앞뒤 레버 세트 실버입니다. 교체 전 사용 중인 브레이크와 핸들바 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,FR5,FR-5,브레이크레버,V브레이크레버,자전거브레이크레버,앞뒤레버세트"
+          },
+          "historical_price": "25000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "7857520811",
+          "name": "스램 SRAM FR-5 V브레이크 레버 앞뒤 세트 실버",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "save_success_visible",
+            "date": "2026-11-10",
+            "title": null,
+            "description": null,
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/7819856778"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0115",
+      "name": "스램 SRAM 스피드 다이얼 7 V브레이크 레버 앞뒤 세트",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3994",
+          "name": "스램 SRAM 스피드 다이얼 7 V브레이크 레버 앞뒤 세트",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 스피드 다이얼 7 V브레이크 레버 앞뒤 세트 | YBBIKE",
+            "description": "스램 스피드 다이얼 7 V브레이크용 앞뒤 레버 세트입니다. 교체 전 사용 중인 브레이크와 핸들바 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,스피드다이얼7,SpeedDial7,브레이크레버,V브레이크레버,자전거브레이크레버"
+          },
+          "historical_price": "43000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0116",
+      "name": "스램 SRAM 프레스핏 30 PF30 버텀브라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3384",
+          "name": "스램 SRAM 프레스핏 30 PF30 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 프레스핏 30 PF30 버텀브라켓 | YBBIKE",
+            "description": "스램 프레스핏 30 PF30 버텀브라켓입니다. 교체 전 프레임의 BB 셸과 크랭크 축 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,PF30,프레스핏30,프레스핏비비,버텀브라켓,바텀브라켓,자전거비비"
+          },
+          "historical_price": "81000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0117",
+      "name": "스램 SRAM GXP 프레스핏 BB86 로드 버텀브라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3383",
+          "name": "스램 SRAM GXP 프레스핏 BB86 로드 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GXP 프레스핏 BB86 로드 버텀브라켓 | YBBIKE",
+            "description": "스램 GXP 로드 BB86 프레스핏 버텀브라켓입니다. 교체 전 프레임의 BB 셸과 크랭크 축 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,GXP,BB86,프레스핏,버텀브라켓,바텀브라켓,로드BB,크랭크베어링"
+          },
+          "historical_price": "69000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589709126",
+          "name": "스램 SRAM GXP 프레스핏 BB86 로드 버텀브라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM GXP 프레스핏 BB86 로드 버텀브라켓 | YBBIKE",
+            "description": "스램 GXP 로드 BB86 프레스핏 버텀브라켓입니다. 교체 전 프레임의 BB 셸과 크랭크 축 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579495290"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0118",
+      "name": "스램 SRAM FORCE PG-1170 11단 카세트 스프라켓",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3348",
+          "name": "스램 SRAM FORCE PG-1170 11단 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM FORCE PG-1170 11단 카세트 스프라켓 | YBBIKE",
+            "description": "스램 FORCE PG-1170 11단 카세트 스프라켓입니다. 톱니 규격은 옵션에서 선택하며, 교체 전 구동계와 휠의 장착 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,FORCE,PG-1170,PG1170,11단카세트,포스스프라켓,로드스프라켓"
+          },
+          "historical_price": "157000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0119",
+      "name": "스램 SRAM RED 11단 기계식 로드 뒷변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3336",
+          "name": "스램 SRAM RED 11단 기계식 로드 뒷변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED 11단 기계식 로드 뒷변속기 | YBBIKE",
+            "description": "스램 RED 11단 기계식 로드 뒷변속기입니다. 케이지 규격은 옵션에서 선택하며, 사용 중인 변속 레버와 카세트 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,레드변속기,11단뒷변속기,기계식변속기,로드뒷변속기,리어디레일러"
+          },
+          "historical_price": "510000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0120",
+      "name": "스램 SRAM 로드 11단 이너 체인링",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3329",
+          "name": "스램 SRAM 로드 11단 이너 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 로드 11단 이너 체인링 | YBBIKE",
+            "description": "스램 로드 11단 이너 체인링입니다. 톱니 수는 옵션에서 선택하며, 크랭크의 체결 규격과 체인링 조합을 확인해 주세요.",
+            "keywords": "스램,SRAM,11단체인링,이너체인링,로드체인링,안쪽체인링,크랭크체인링"
+          },
+          "historical_price": "55000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589688538",
+          "name": "스램 SRAM 로드 11단 이너 체인링",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM 로드 11단 이너 체인링 | YBBIKE",
+            "description": "스램 로드 11단 이너 체인링입니다. 톱니 수는 옵션에서 선택하며, 크랭크의 체결 규격과 체인링 조합을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579474982"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0121",
+      "name": "스램 SRAM eTap AXS 배터리 충전기",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3327",
+          "name": "스램 SRAM eTap AXS 배터리 충전기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM eTap AXS 배터리 충전기 | YBBIKE",
+            "description": "스램 eTap AXS 배터리용 충전기입니다. 전동 변속기 배터리 충전 시 사용하며, 구매 전 배터리 모델과 구성품을 확인해 주세요.",
+            "keywords": "스램,SRAM,eTap,AXS,이탭충전기,AXS충전기,배터리충전기,전동변속기충전기"
+          },
+          "historical_price": "76000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4627565142",
+          "name": "스램 SRAM eTap AXS 배터리 충전기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM eTap AXS 배터리 충전기 | YBBIKE",
+            "description": "스램 eTap AXS 배터리용 충전기입니다. 전동 변속기 배터리 충전 시 사용하며, 구매 전 배터리 모델과 구성품을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4616893982"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0122",
+      "name": "스램 SRAM RED XG-1190 11단 카세트 스프라켓",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3325",
+          "name": "스램 SRAM RED XG-1190 11단 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED XG-1190 11단 카세트 스프라켓 | YBBIKE",
+            "description": "스램 RED XG-1190 11단 카세트 스프라켓입니다. 톱니 규격은 옵션에서 선택하며, 구동계와 프리허브 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,XG-1190,XG1190,레드카세트,11단스프라켓,로드카세트,카세트스프라켓"
+          },
+          "historical_price": "570000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "8530016388",
+          "name": "스램 SRAM RED XG-1190 11단 카세트 스프라켓",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED XG-1190 11단 카세트 스프라켓 | YBBIKE",
+            "description": "스램 RED XG-1190 11단 카세트 스프라켓입니다. 톱니 규격은 옵션에서 선택하며, 구동계와 프리허브 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/8489336028"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0123",
+      "name": "스램 SRAM eTap AXS 전동 변속기 배터리",
+      "category_code": null,
+      "matching": "상품명 완전일치 연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3324",
+          "name": "스램 SRAM eTap AXS 전동 변속기 배터리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM eTap AXS 전동 변속기 배터리 | YBBIKE",
+            "description": "스램 eTap AXS 전동 변속기용 배터리입니다. 교체용 또는 예비 배터리 선택 시 사용 중인 변속기의 배터리 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,eTap,AXS,이탭배터리,AXS배터리,전동변속기배터리,자전거배터리,예비배터리"
+          },
+          "historical_price": "105000",
+          "price_date": "2026-11-10"
+        },
+        {
+          "channel": "smartstore",
+          "id": "4589685306",
+          "name": "스램 SRAM eTap AXS 전동 변속기 배터리",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM eTap AXS 전동 변속기 배터리 | YBBIKE",
+            "description": "스램 eTap AXS 전동 변속기용 배터리입니다. 교체용 또는 예비 배터리 선택 시 사용 중인 변속기의 배터리 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579471790"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0124",
+      "name": "스램 SRAM RED eTap 유선 블립 변속 버튼",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "cafe24",
+          "id": "3321",
+          "name": "스램 SRAM RED eTap 유선 블립 변속 버튼",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RED eTap 유선 블립 변속 버튼 | YBBIKE",
+            "description": "스램 RED eTap 유선 블립 변속 버튼입니다. 케이블 길이는 옵션에서 선택하며, 연결할 변속 시스템의 호환 규격을 확인해 주세요.",
+            "keywords": "스램,SRAM,RED,eTap,Blips,유선블립,블립버튼,변속버튼,전동변속"
+          },
+          "historical_price": "197000",
+          "price_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0125",
+      "name": "스램 SRAM RIVAL AXS E1 라이벌 로드 무선 전동 앞변속기",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "smartstore",
+          "id": "13822941152",
+          "name": "스램 SRAM RIVAL AXS E1 라이벌 로드 무선 전동 앞변속기",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM RIVAL AXS E1 라이벌 로드 무선 전동 앞변속기 | YBBIKE",
+            "description": "스램 RIVAL AXS E1 라이벌 앞변속기. AXS 무선 전동 변속과 자동 트림을 적용한 로드 더블 구동계 부품입니다.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/13761656699"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0126",
+      "name": "스램 SRAM 센터라인 디스크 브레이크 로터 6볼트 센터락",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "smartstore",
+          "id": "4980333456",
+          "name": "스램 SRAM 센터라인 디스크 브레이크 로터 6볼트 센터락",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "save_success_visible",
+            "date": "2026-11-10",
+            "title": null,
+            "description": null,
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4963464320"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0127",
+      "name": "스램 SRAM 파워락 12단 체인 커넥터 퀵링크",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "smartstore",
+          "id": "4771074317",
+          "name": "스램 SRAM 파워락 12단 체인 커넥터 퀵링크",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "save_success_visible",
+            "date": "2026-11-10",
+            "title": null,
+            "description": null,
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4758026940",
+          "hold": "본사현재골드 규격확인불가. 기존20000·10개 유지"
+        }
+      ]
+    },
+    {
+      "code": "SRAM-REG-0128",
+      "name": "스램 SRAM PC-1130 RIVAL 22 11단 자전거 체인",
+      "category_code": null,
+      "matching": "한 채널 기록 / 상대 채널 미연결",
+      "supplier_url": null,
+      "listings": [
+        {
+          "channel": "smartstore",
+          "id": "4589822781",
+          "name": "스램 SRAM PC-1130 RIVAL 22 11단 자전거 체인",
+          "observed_date": "2026-11-10",
+          "source": "reports/sram-pm-20261110",
+          "registration": "과거 등록 확인",
+          "seo": {
+            "status": "저장값 점검 기록",
+            "date": "2026-11-10",
+            "title": "스램 SRAM PC-1130 RIVAL 22 11단 자전거 체인 | YBBIKE",
+            "description": "스램 PC-1130 RIVAL 22 11단 자전거 체인입니다. 구동계 정비와 체인 교체 시 사용 중인 체인의 단수와 규격을 확인해 주세요.",
+            "keywords": null
+          },
+          "admin_url": "https://sell.smartstore.naver.com/#/products/edit/4579607455"
+        }
+      ]
+    }
+  ],
+  "identity_changes": [
+    {
+      "channel": "cafe24",
+      "id": "4000",
+      "previous_name": "스램 SRAM 센터라인 6볼트 디스크 브레이크 로터",
+      "current_name": "스램 SRAM 포스 FORCE AXS E1 로드 유압 시프터 브레이크 세트",
+      "date": "2026-11-12",
+      "note": "동일 상품번호의 상품명·모델 변경. 이전 매칭을 자동 승계하지 않음",
+      "previous_record": {
+        "channel": "cafe24",
+        "id": "4000",
+        "name": "스램 SRAM 센터라인 6볼트 디스크 브레이크 로터",
+        "observed_date": "2026-11-10",
+        "source": "reports/sram-pm-20261110",
+        "registration": "과거 등록 확인",
+        "seo": {
+          "status": "저장값 점검 기록",
+          "date": "2026-11-10",
+          "title": "스램 SRAM 센터라인 6볼트 디스크 브레이크 로터 | YBBIKE",
+          "description": "스램 센터라인 6볼트 디스크 브레이크 로터입니다. 구매 전 허브의 체결 방식과 사용 중인 브레이크의 로터 직경을 확인해 주세요.",
+          "keywords": "스램,SRAM,센터라인,CenterLine,6볼트로터,디스크로터,브레이크로터,자전거로터"
+        },
+        "historical_price": "58000",
+        "price_date": "2026-11-10"
+      }
+    },
+    {
+      "channel": "cafe24",
+      "id": "13859",
+      "previous_name": "스램 SRAM RIVAL AXS E1 라이벌 로드 무선 전동 앞변속기",
+      "current_name": "스램 SRAM 라이벌 RIVAL AXS E1 로드 무선 전동 뒷변속기",
+      "date": "2026-11-12",
+      "note": "동일 상품번호의 상품명·모델 변경. 이전 매칭을 자동 승계하지 않음",
+      "previous_record": {
+        "channel": "cafe24",
+        "id": "13859",
+        "name": "스램 SRAM RIVAL AXS E1 라이벌 로드 무선 전동 앞변속기",
+        "observed_date": "2026-11-10",
+        "source": "reports/sram-pm-20261110",
+        "registration": "과거 등록 확인",
+        "seo": {
+          "status": "저장값 점검 기록",
+          "date": "2026-11-10",
+          "title": "스램 SRAM RIVAL AXS E1 라이벌 로드 무선 전동 앞변속기 | YBBIKE",
+          "description": "스램 RIVAL AXS E1 라이벌 앞변속기. AXS 무선 전동 변속과 자동 트림을 적용한 로드 더블 구동계 부품입니다.",
+          "keywords": "스램,SRAM,RIVAL AXS E1,라이벌,앞변속기,전동앞변속기,무선변속기,로드구동계,AXS"
+        },
+        "historical_price": "304000",
+        "price_date": "2026-11-10",
+        "pm": {
+          "date": "2026-11-10",
+          "status": "verified_unchanged",
+          "source": "checkpoint.json"
+        }
+      }
+    }
+  ],
+  "hold_history": [
+    {
+      "channel": "cafe24",
+      "id": "11065",
+      "name": "SRAM G2 R 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "11064",
+      "name": "SRAM G2 RS 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "11025",
+      "name": "SRAM 레벨 얼티메이트 브레이크 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "9754",
+      "name": "SRAM G2 얼티메이트 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "8861",
+      "name": "SRAM RED D1 캘리퍼 브레이크 세트 자전거 브레이크 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "7303",
+      "name": "SRAM S-900 다이렉트 마운트 캘리퍼 브레이크 자전거 브레이크 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "4805",
+      "name": "SRAM 레벨 TLM 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "4107",
+      "name": "SRAM 레벨 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "4106",
+      "name": "SRAM 레벨 T 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "4105",
+      "name": "SRAM 레벨 TL 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "9757",
+      "name": "SRAM AXS 파워미터 스파이더 (12단) 로드 자전거 파워미터 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "cafe24",
+      "id": "8890",
+      "name": "SRAM 파워미터크랭크 RED E1(DUB) 파워미터 12단 로드자전거 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4589846604",
+      "name": "SRAM FORCE eTap AXS 2X ROAD 3점 세트 (RIM) 자전거 변속기 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4589836217",
+      "name": "SRAM RED D1 캘리퍼 브레이크 세트 자전거 브레이크 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4589825277",
+      "name": "SRAM S-900 다이렉트 마운트 캘리퍼 브레이크 자전거 브레이크 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4589792344",
+      "name": "SRAM 레벨 TLM 브레이크 (B1) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4589785361",
+      "name": "SRAM 레벨 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4589784519",
+      "name": "SRAM 레벨 T 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4589783873",
+      "name": "SRAM 레벨 TL 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4731910810",
+      "name": "SRAM G2 얼티메이트 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4894931305",
+      "name": "SRAM G2 R 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4894930734",
+      "name": "SRAM G2 RS 브레이크 (블랙) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4869826547",
+      "name": "SRAM 레벨 얼티메이트 브레이크 (신형) 자전거 브레이크 레버 스램",
+      "reason": "현재 본사 목록에서 동일 모델·세대 확인 불가. 기존값 유지, 단종 확정 아님"
+    },
+    {
+      "channel": "both",
+      "id": "4000/4001 · 4980333456/4980333870",
+      "name": "센터라인·센터라인2피스 로터",
+      "reason": "재고 반영 완료. 본사 소비자가 규격별 상이로 옵션별 최종 가격 확인 필요"
+    },
+    {
+      "channel": "both",
+      "id": "13844 · 13810172390",
+      "name": "RED XG-1290 E1 10-36T",
+      "reason": "재고각5. 다른 규격과 공급가가 달라 10-36T 소비자가 미확정, 기존 실결제가 유지. 채널별 가격차 남음"
+    },
+    {
+      "channel": "cafe24",
+      "id": "3348/11789",
+      "name": "PG-1170·RED/FORCE 체인링 볼트",
+      "reason": "재고 일치. 본사 규격별 소비자가가 명시되지 않아 추가금 가격 확정 보류"
+    },
+    {
+      "channel": "cafe24",
+      "id": "13647/13648",
+      "name": "RED E1 좌우 레버",
+      "reason": "재고각3/각5 일치. 본사 좌우세트 표시가와 단품 판매 단위 차이, 기존 단품가 유지"
+    },
+    {
+      "channel": "both",
+      "id": "8891 · 4589890828",
+      "name": "RED D1 크랭크 175mm",
+      "reason": "본사172.5mm만 확인됨. 등록175mm 옵션은 기존값 유지"
+    },
+    {
+      "channel": "both",
+      "id": "13552 · 11153653639",
+      "name": "XX1 XG-1299 50T·코퍼",
+      "reason": "본사52T 골드·레인보우만 확인됨. 나머지 기존값 유지"
+    },
+    {
+      "channel": "both",
+      "id": "4006 · 4589714808",
+      "name": "이글 체인링 골드",
+      "reason": "본사블랙만 확인. 골드 기존0 유지"
+    },
+    {
+      "channel": "cafe24",
+      "id": "4020",
+      "name": "X-SYNC11단 DM 체인링",
+      "reason": "등록3/6mm와 본사0mmBB30 규격 다름. 변경보류"
+    },
+    {
+      "channel": "cafe24",
+      "id": "9758",
+      "name": "RED D1 크랭크암 GXP·기타길이",
+      "reason": "본사DUB175mm만 확인. 해당옵션660000·3개 일치. 나머지 기존값 유지"
+    },
+    {
+      "channel": "smartstore",
+      "id": "4771074317",
+      "name": "파워락12단 골드4개입",
+      "reason": "본사현재골드 규격확인불가. 기존20000·10개 유지"
+    },
+    {
+      "channel": "cafe24",
+      "id": "13314/13312",
+      "name": "XX SL 크랭크·파워미터크랭크 175mm",
+      "reason": "등록175mm 본사동일규격확인 미완료. 기존0유지"
+    }
+  ]
+}
